@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Şarkı</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function(){
+      try{
+        const t = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", t);
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html" aria-label="Anasayfa">
+        <div class="logo" aria-hidden="true">
+    <img src="assets/logo.png" alt="Kürtçe Akorlar logosu">
+  </div>
+      </a>
+
+      <div class="topbar__actions--spread">
+        <div class="topbar__left">
+          <a class="btn btn--ghost btn--lg" href="all.html">← Listeye geri dön</a>
+        </div>
+        <div class="topbar__right">
+          <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
+          <button class="btn btn--ghost btn--lg" id="zoomOut" type="button">−</button>
+          <div class="zoomLevel" id="zoomLevel">100%</div>
+          <button class="btn btn--ghost btn--lg" id="zoomIn" type="button">+</button>
+          <button class="btn btn--lg" id="zoomFit" type="button">Sıfırla</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="songPage">
+      <section class="songWrap">
+        <div>
+          <div id="songName" class="brand__title">—</div>
+          <div id="songArtist" class="brand__sub">—</div>
+        </div>
+
+        <div class="imgWrap">
+          <img id="img" alt="Akor sayfası" loading="eager" />
+        </div>
+
+        <div class="muted" style="margin-top:10px; font-size:13px; text-align:center;">
+          İpucu: İki parmakla yakınlaştırabilirsin.
+        </div>
+      </section>
+
+      <aside class="songAside">
+        <section class="resultsHeader" style="margin-top:0;">
+          <div class="resultsHeader__left">
+            <div class="resultsHeader__title">Öneriler</div>
+            <div class="muted"></div>
+          </div>
+          <button id="shuffleRec" class="btn btn--ghost" type="button">Yenile</button>
+        </section>
+
+        <section id="recs" class="list"></section>
+      </aside>
+    </div>
+
+
+  <script src="common.js"></script>
+  <script src="song.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>html,body,iframe{margin:0;width:100%;height:100%;border:0}</style>
+</head>
+<body>
+<iframe id="pdf"></iframe>
+<script>
+  const p = new URLSearchParams(location.search);
+  const file = p.get("file");     // örn: /pdf/pdf1.pdf
+  const page = p.get("page") || "1";
+
+  if (!file) {
+    document.body.innerHTML = "<div style='font-family:system-ui;padding:16px'>Hata: file parametresi yok</div>";
+  } else {
+    const src = `pdfjs/web/viewer.html?file=${encodeURIComponent(file)}#page=${encodeURIComponent(page)}`;
+    document.getElementById("pdf").src = src;
+  }
+</script>
+</body>
+</html>

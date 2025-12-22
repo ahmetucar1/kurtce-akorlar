@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tüm Şarkılar – Kürtçe Akorlar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function(){
+      try{
+        const t = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", t);
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar">
+   <div class="container topbar__inner">
+      <a class="brand" href="index.html" aria-label="Anasayfa">
+  <div class="logo" aria-hidden="true">
+    <img src="assets/logo.png" alt="Kürtçe Akorlar logosu">
+    
+  </div>
+  
+  <div>
+    <div class="brand__title brand__title--soft">Kürtçe Akorlar</div>
+    <div class="brand__kurd">Kürtçe şarkılar repertuarı</div>
+  </div>
+</a>
+      <div class="topbar__actions">
+        <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
+        <a class="btn btn--ghost btn--lg" href="all.html">Tüm Şarkılar</a>
+        
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="resultsHeader" style="margin-top:10px;">
+      <div class="resultsHeader__left">
+        <div class="resultsHeader__title">Tüm Şarkılar</div>
+        <br>
+        <div class="muted"><span id="count">0</span> Adet</div>
+      </div>
+    </section>
+
+    <div class="search" style="margin-top:25px;">
+      <span class="search__icon" aria-hidden="true">⌕</span>
+      <input id="q" class="search__input" type="search" placeholder="Şarkı veya sanatçı ara…" autocomplete="off" />
+      <button id="clear" class="btn btn--ghost" type="button">Temizle</button>
+    </div>
+
+    <section id="list" class="list" style="margin-top:45px;"></section>
+
+    <footer class="footer muted">
+      <div class="footerRow">
+        <div class="footerBrand">
+          <span>Developer: Ahmet Uçar</span> 
+        </div>
+        <span class="muted">© Kürtçe Akorlar</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="all.js"></script>
+</body>
+</html>
