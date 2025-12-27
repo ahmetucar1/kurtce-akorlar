@@ -94,6 +94,22 @@ async function init(){
 
   $("#shuffleDiscover")?.addEventListener("click", () => renderDiscover());
 
+  // topbardaki "Rastgele"
+  $("#shuffleAll")?.addEventListener("click", () => {
+    if(!SONGS.length) return;
+    const s = SONGS[Math.floor(Math.random() * SONGS.length)];
+    location.href = openLink(s);
+  });
+
+  // sağdaki küçük rastgele kutusu
+  $("#shuffleOneHome")?.addEventListener("click", () => {
+    if(!SONGS.length) return;
+    const s = SONGS[Math.floor(Math.random() * SONGS.length)];
+    location.href = openLink(s);
+  });
+
+  $("#scrollTop")?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+}
 
 init().catch(err => {
   console.error(err);
