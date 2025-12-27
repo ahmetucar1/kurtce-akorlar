@@ -14,7 +14,7 @@
     })();
   </script>
 </head>
-<body>
+<body class="all-page">
   <header class="topbar">
    <div class="container topbar__inner">
       <a class="brand" href="index.html" aria-label="Anasayfa">
@@ -25,7 +25,7 @@
   
   <div>
     <div class="brand__title brand__title--soft">Kürtçe Akorlar</div>
-    <div class="brand__kurd">Kürtçe şarkılar repertuarı</div>
+
   </div>
 </a>
       <div class="topbar__actions">
@@ -37,21 +37,20 @@
   </header>
 
   <main class="container">
-    <section class="resultsHeader" style="margin-top:10px;">
+    <section class="resultsHeader">
       <div class="resultsHeader__left">
         <div class="resultsHeader__title">Tüm Şarkılar</div>
-        <br>
         <div class="muted"><span id="count">0</span> Adet</div>
       </div>
     </section>
 
-    <div class="search" style="margin-top:25px;">
+    <div class="search">
       <span class="search__icon" aria-hidden="true">⌕</span>
       <input id="q" class="search__input" type="search" placeholder="Şarkı veya sanatçı ara…" autocomplete="off" />
       <button id="clear" class="btn btn--ghost" type="button">Temizle</button>
     </div>
 
-    <section id="list" class="list" style="margin-top:45px;"></section>
+    <section id="list" class="list"></section>
 
     <footer class="footer muted">
       <div class="footerRow">
