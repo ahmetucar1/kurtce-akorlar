@@ -35,7 +35,7 @@ function render(){
     <div class="item">
       <div class="item__left">
         <div class="item__title">${escapeHtml(s.song)}</div>
-        <div class="item__sub">${escapeHtml(s.artist)} • Sayfa ${escapeHtml(String(s.page_combined ?? s.page_original ?? ""))}</div>
+        <div class="item__sub">${escapeHtml(s.artist)} </div>
       </div>
       <div class="badges">
         <a class="open" href="${openLink(s)}">Aç</a>
