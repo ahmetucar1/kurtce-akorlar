@@ -106,5 +106,5 @@ async function init(){
 init().catch(err => {
   console.error(err);
   const list = $("#list");
-  if(list) list.innerHTML = `<div class="empty">Veri yüklenemedi (assets/songs.json bulunamadı olabilir).</div>`;
+  if(list) list.innerHTML = `<div class="empty">Me gu xwar</div>`;
 });
