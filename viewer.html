@@ -12,7 +12,7 @@
   const page = p.get("page") || "1";
 
   if (!file) {
-    document.body.innerHTML = "<div style='font-family:system-ui;padding:16px'>Hata: file parametresi yok</div>";
+    document.body.innerHTML = "<div style='font-family:system-ui;padding:16px'>Xeta: Sebîrke... </div>";
   } else {
     const src = `pdfjs/web/viewer.html?file=${encodeURIComponent(file)}#page=${encodeURIComponent(page)}`;
     document.getElementById("pdf").src = src;
