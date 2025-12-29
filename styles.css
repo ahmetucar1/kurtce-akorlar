@@ -389,3 +389,39 @@ main.container{ padding: 14px 0 70px; }
 .footer {
   margin-top:5px;
 }
+
+
+/* --- Mobile topbar fix --- */
+@media (max-width: 640px){
+  .topbar__inner{
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* sağ üst: tema butonu; alt satır: tüm şarkılar tek geniş buton */
+  .topbar__actions{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  /* tema butonu sağ üstte kalsın */
+  #themeToggle{
+    order: 1;
+  }
+
+  /* Tüm Şarkılar mobilde tam genişlik, aşağı satır */
+  .topbar__actions a[href$="all.html"]{
+    order: 2;
+    flex: 1 0 100%;
+    text-align: center;
+    padding: 12px 14px;
+    border-radius: 16px;
+  }
+
+  /* başlık çok büyüyse biraz küçült, tek satırda daha rahat dursun */
+  .brand__title{
+    font-size: 24px;
+  }
+}
+
