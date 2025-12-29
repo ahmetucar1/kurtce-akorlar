@@ -16,7 +16,6 @@ function renderStats(){
 
 function renderList(){
   const listEl = $("#list");
-  const countEl = $("#count");
   if(!listEl) return;
 
   const q = norm($("#q")?.value || "");
@@ -33,7 +32,7 @@ function renderList(){
   if(countEl) countEl.textContent = items.length.toString();
 
   if(!items.length){
-    listEl.innerHTML = `<div class="empty">Sonuç yok.</div>`;
+    listEl.innerHTML = `<div class="empty">Tınne</div>`;
     return;
   }
 
@@ -44,7 +43,7 @@ function renderList(){
         <div class="item__sub">${escapeHtml(s.artist)} • Sayfa ${escapeHtml(String(s.page_combined ?? s.page_original ?? ""))}</div>
       </div>
       <div class="badges">
-        <a class="open" href="${openLink(s)}">Aç</a>
+        <a class="open" href="${openLink(s)}">Veke</a>
       </div>
     </div>
   `).join("");
