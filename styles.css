@@ -385,3 +385,7 @@ main.container{ padding: 14px 0 70px; }
 
 /* ---- Utilities used by existing markup ---- */
 .brand__title--soft{ font-weight: 780; }
+
+.footer {
+  margin-top:5px;
+}
