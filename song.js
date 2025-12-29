@@ -24,10 +24,9 @@ function renderRecList(el, recs){
     <div class="item">
       <div class="item__left">
         <div class="item__title">${escapeHtml(s.song)}</div>
-        <div class="item__sub">${escapeHtml(s.artist)}</div>
       </div>
       <div class="badges">
-        <a class="open" href="${openLink(s)}">Aç</a>
+        <a class="open" href="${openLink(s)}">Veke</a>
       </div>
     </div>
   `).join("");
