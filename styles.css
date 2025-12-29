@@ -47,7 +47,7 @@ body{
 
 a{ color:inherit; }
 img{ max-width:100%; display:block; }
-.muted{ color:var(--muted); }
+.muted{ color: #dedede; }
 
 .container{
   width: min(1100px, calc(100% - 32px));
@@ -295,10 +295,6 @@ main.container{ padding: 14px 0 70px; }
   position:absolute;
   left:14px; right:14px; bottom:14px;
   padding: 12px 12px;
-  border-radius: 16px;
-  background: color-mix(in srgb, var(--panel) 78%, transparent);
-  border: 1px solid var(--line);
-  backdrop-filter: blur(12px);
 }
 .visualCard__overlayTitle{ font-weight:800; }
 
