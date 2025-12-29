@@ -1,9 +1,8 @@
-<!doctype html>
-<html lang="tr" data-theme="dark">
+<html lang="ku" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Şarkı</title>
+  <title>Repertûara Kurdî</title>
   <link rel="stylesheet" href="styles.css" />
   <script>
     (function(){
@@ -15,25 +14,28 @@
   </script>
 </head>
 <body>
- <header class="topbar">
+  <div class="home-page">
+
+  <header class="topbar">
     <div class="container topbar__inner">
       <a class="brand" href="index.html" aria-label="Anasayfa">
   <div class="logo" aria-hidden="true">
-    <img src="assets/logo.png" alt="Kürtçe Akorlar logosu">
+    <img src="assets/logo.png" alt="Repertûara Kurdî logo">
     
   </div>
   
   <div>
-    <div class="brand__title brand__title--soft">Kürtçe Akorlar</div><div class="brand__kurd"></div>
+    <div class="brand__title brand__title--soft">Repertûara Kurdî</div><div class="brand__kurd"></div>
   </div>
 </a>
       <div class="topbar__actions">
         <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
-        <a class="btn btn--ghost btn--lg" href="all.html">Tümü</a>
+        <a class="btn btn--ghost btn--lg" href="all.html">Hemû</a>
         
       </div>
     </div>
   </header>
+
 
   <main class="container">
     <div class="songPage">
@@ -44,21 +46,21 @@
         </div>
 
         <div class="imgWrap">
-          <img id="img" alt="Akor sayfası" loading="eager" />
+          <img id="img" alt="rupela akor" loading="eager" />
         </div>
 
         <div class="muted" style="margin-top:10px; font-size:13px; text-align:center;">
-          İpucu: İki parmakla yakınlaştırabilirsin.
+         Bi du tiliyên xwe dikarî nêzîk û dûr bike.
         </div>
       </section>
 
       <aside class="songAside">
         <section class="resultsHeader" style="margin-top:0;">
           <div class="resultsHeader__left">
-            <div class="resultsHeader__title">Öneriler</div>
+            <div class="resultsHeader__title">Pêşniyarên</div>
             <div class="muted"></div>
           </div>
-          <button id="shuffleRec" class="btn btn--ghost" type="button">Yenile</button>
+          <button id="shuffleRec" class="btn btn--ghost" type="button">Nû bike</button>
         </section>
 
         <section id="recs" class="list"></section>
@@ -71,11 +73,11 @@
   width:100%;
 ">
   <span class="muted" style="text-align:left;">
-    © Kürtçe Akorlar
+    © Repertûara Kurdî
   </span>
 
   <span class="muted" style="text-align:right;">
-    Developer: Ahmet Uçar
+    Pêşvebir: Ahmet Uçar
   </span>
 </div>
 
