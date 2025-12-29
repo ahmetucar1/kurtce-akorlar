@@ -1,11 +1,5 @@
 [
-  {
-    "song": "AZADE",
-    "artist": "Agire Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 1
-  },
+
   {
     "song": "AVA SÛSÊ",
     "artist": "Koma Hemdem",
@@ -85,7 +79,7 @@
   },
   {
     "song": "COTKARO",
-    "artist": "Şiwan Perver",
+    "artist": "Şivan Perwer",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 13
@@ -113,7 +107,7 @@
   },
   {
     "song": "ÇAW CIWANA LEYLA",
-    "artist": "Ahmet Xelîl",
+    "artist": "Ahmed Xelîl",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 17
@@ -414,7 +408,7 @@
   },
   {
     "song": "OREMAR",
-    "artist": "Awazên Çiya",
+    "artist": "Awazê Çiya",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 60
@@ -484,7 +478,7 @@
   },
   {
     "song": "SERHILDAN JIYAN E",
-    "artist": "",
+    "artist": "Şivan Perwer",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 70
@@ -512,7 +506,7 @@
   },
   {
     "song": "TU BÛY DENGÊ ÎSA",
-    "artist": "",
+    "artist": "Koma Denge Azadî",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 74
@@ -533,14 +527,14 @@
   },
   {
     "song": "TU WER E",
-    "artist": "",
+    "artist": "Rotînda",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 77
   },
   {
     "song": "TU YÎ BIHIŞTA MIN",
-    "artist": "",
+    "artist": "Koma Azad",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 78
@@ -554,7 +548,7 @@
   },
   {
     "song": "WELAT PERESTİ",
-    "artist": "",
+    "artist": "Ciwan Haco",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 80
@@ -582,7 +576,7 @@
   },
   {
     "song": "XEMILÎ ZOZAN",
-    "artist": "",
+    "artist": "Aram Tigran",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 84
@@ -638,39 +632,19 @@
   },
   {
     "song": "ZEVIYÊN EDABÊ",
-    "artist": "",
+    "artist": "Koma Rewşen",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 92
   },
   {
     "song": "ZOZAN",
-    "artist": "Ahmed Xelil",
+    "artist": "Ahmed Xelîl",
     "pdf": "pdf1.pdf",
     "volume": "PDF1",
     "page_original": 93
   },
-  {
-    "song": "Akorlar",
-    "artist": "Bb",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 94
-  },
-  {
-    "song": "Akorlar 2",
-    "artist": "G",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 95
-  },
-  {
-    "song": "AZADE",
-    "artist": "Agire Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 1
-  },
+ 
   {
     "song": "AX LÊ GIDYE",
     "artist": "Rojda",
@@ -757,7 +731,7 @@
   },
   {
     "song": "AY DÎLBERÊ",
-    "artist": "Aram Tîgran",
+    "artist": "Aram Tigran",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 14
@@ -799,7 +773,7 @@
   },
   {
     "song": "ŞOX Û ŞENGÊ",
-    "artist": "4/4",
+    "artist": "Xecê",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 20
@@ -841,14 +815,14 @@
   },
   {
     "song": "DESTMAL",
-    "artist": "Şiwan Perwer – İlkay Akkaya",
+    "artist": ["Şivan Perwer","İlkay Akkaya"],
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 26
   },
   {
     "song": "DUZGIN BAWO",
-    "artist": "Metin - Kemal Kahraman",
+    "artist": "Metin Kemal Kahraman",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 27
@@ -862,7 +836,7 @@
   },
   {
     "song": "DEWRANO",
-    "artist": "Metin - Kemal Kahraman",
+    "artist": "Metin Kemal Kahraman",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 29
@@ -883,7 +857,7 @@
   },
   {
     "song": "DIYARBEKIR MALA MINA",
-    "artist": "Agire Jiyan",
+    "artist": "Agirê Jiyan",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 32
@@ -1051,7 +1025,7 @@
   },
   {
     "song": "MEYMANO USARÎ",
-    "artist": "Metin – Kemal Kahraman",
+    "artist": "Metin Kemal Kahraman",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 56
@@ -1247,7 +1221,7 @@
   },
   {
     "song": "ŞIYE",
-    "artist": "Mikail Aslan - Beser Şahin",
+    "artist": ["Mikail Aslan","Beser Şahin"],
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 84
@@ -1296,7 +1270,7 @@
   },
   {
     "song": "SIBA",
-    "artist": "Ciwan haco",
+    "artist": "Ciwan Haco",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 91
@@ -1352,7 +1326,7 @@
   },
   {
     "song": "ASME VEJİYA",
-    "artist": "Metin - Kemal Kahraman",
+    "artist": "Metin Kemal Kahraman",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 99

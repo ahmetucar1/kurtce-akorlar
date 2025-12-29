@@ -256,6 +256,82 @@ main.container{ padding: 14px 0 70px; }
   text-align:center;
 }
 
+/* ---- Artist suggestions (chips) ---- */
+.artistSuggest{
+  margin-top: 12px;
+  padding: 12px 12px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.artistSuggest__head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom: 10px;
+}
+.artistSuggest__title{ font-weight: 800; letter-spacing: -.02em; }
+
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.chip{
+  appearance:none;
+  border:1px solid var(--line);
+  background: var(--btn);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 999px;
+  cursor:pointer;
+  font-weight: 700;
+  font-size: 13px;
+  line-height:1;
+  white-space: nowrap;
+}
+.chip:hover{ background: var(--btnHover); }
+.chip.is-active{
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 18%, var(--btn));
+}
+
+/* ---- Sorting segmented control (all page) ---- */
+.sortBar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+.sortBar__label{ font-weight:700; }
+.seg{
+  display:inline-flex;
+  gap:6px;
+  padding:6px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+.seg__btn{
+  appearance:none;
+  border:1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor:pointer;
+  font-weight: 800;
+  font-size: 13px;
+  line-height:1;
+}
+.seg__btn:hover{ background: var(--btnHover); }
+.seg__btn.is-active{
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 18%, var(--btn));
+}
+
 /* ---- Home grid cards ---- */
 .homeGrid{
   margin-top: 18px;

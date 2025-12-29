@@ -68,13 +68,21 @@ async function init(){
   $("#zoomOut")?.addEventListener("click", () => { zoom = setZoom(img, zoom - 0.1); });
   $("#zoomFit")?.addEventListener("click", () => { zoom = setZoom(img, 1); });
 
-  // önerilenler: aynı pdf'ten + rastgele
+  // pêşniyar: pêşî hunermendê heman; paşê rastgele
   const pool = SONGS.filter(s => makeId(s) !== makeId(current));
   const recEl = $("#recs");
   const renderRecs = () => {
-    const preferred = pool.filter(s => s.pdf === current.pdf);
-    const mix = preferred.length ? preferred : pool;
-    const recs = pickRandom(mix, 6);
+    const artistPool = pool.filter(s => norm(s.artist) === norm(current.artist));
+    const otherPool = pool.filter(s => norm(s.artist) !== norm(current.artist));
+
+    const recs = [];
+    if(artistPool.length){
+      recs.push(...pickRandom(artistPool, Math.min(6, artistPool.length)));
+    }
+    if(recs.length < 6){
+      recs.push(...pickRandom(otherPool, 6 - recs.length));
+    }
+
     renderRecList(recEl, recs);
   };
 

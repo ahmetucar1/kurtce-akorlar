@@ -52,7 +52,23 @@
       <button id="clear" class="btn btn--ghost" type="button">Paqij</button>
     </div>
 
-    <section id="list" class="list" style="margin-top:45px;"></section>
+    <div class="artistSuggest" aria-label="Pêşniyara hunermend" style="margin-top:12px;">
+      <div class="artistSuggest__head">
+        <div class="artistSuggest__title muted">Pêşniyara Hunermend</div>
+        <button id="artistsShuffle" class="btn btn--ghost" type="button">Nûkirin</button>
+      </div>
+      <div id="artistChips" class="chips" role="list"></div>
+    </div>
+
+    <div class="sortBar" aria-label="Rêzkirin" style="margin-top:12px;">
+      <div class="sortBar__label muted">Rêzkirin</div>
+      <div class="seg" role="tablist" aria-label="Rêzkirin">
+        <button class="seg__btn is-active" type="button" data-sort="normal" role="tab" aria-selected="true">Asayî</button>
+        <button class="seg__btn" type="button" data-sort="az" role="tab" aria-selected="false">A–Z</button>
+      </div>
+    </div>
+
+    <section id="list" class="list" style="margin-top:18px;"></section>
 
      <footer class="footer muted">
       <div class="footerRow" style="
