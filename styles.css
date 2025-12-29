@@ -477,5 +477,19 @@ main.container{ padding: 14px 0 70px; }
     white-space: nowrap;
   }
 }
+:root{
+  --bg0:#070A10;
+  --bg1:#0B1220;
+  --bg2:#0F1B2D;
+}
+
+body{
+  background:
+    radial-gradient(1200px 800px at 20% 10%, rgba(124, 58, 237, .18), transparent 55%),
+    radial-gradient(900px 700px at 85% 25%, rgba(56, 189, 248, .10), transparent 55%),
+    radial-gradient(900px 900px at 50% 95%, rgba(16, 185, 129, .08), transparent 60%),
+    linear-gradient(180deg, var(--bg1), var(--bg0));
+  background-attachment: fixed;
+}
 
 
