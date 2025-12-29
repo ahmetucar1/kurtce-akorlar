@@ -425,3 +425,57 @@ main.container{ padding: 14px 0 70px; }
   }
 }
 
+
+/* ===== Mobile: header tek satır ===== */
+@media (max-width: 640px) {
+
+  /* header içini tek satıra zorla */
+  .topbar .container,
+  .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: nowrap;
+  }
+
+  /* sol taraf: logo + başlık */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .brand__title {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* sağ taraf: butonlar */
+  .topbar__actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+
+  /* tema butonu */
+  #themeToggle {
+    padding: 6px 8px;
+    border-radius: 999px;
+    font-size: 14px;
+  }
+
+  /* Tümü butonu (küçültülmüş hali) */
+  .topbar__actions a {
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+}
+
+
