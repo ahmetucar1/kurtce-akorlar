@@ -16,7 +16,7 @@ function renderStats(){
 
 function renderList(){
   const listEl = $("#list");
-  const count = $("#count");
+  const countEl = $("#count");
   if(!listEl) return;
 
   const q = norm($("#q")?.value || "");
