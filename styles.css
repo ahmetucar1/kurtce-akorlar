@@ -492,4 +492,23 @@ body{
   background-attachment: fixed;
 }
 
+/* Mobilde şarkı sayfasındaki zoom butonlarını gizle */
+@media (max-width: 640px){
+  #zoomOut,
+  #zoomIn,
+  #zoomFit,
+  #zoomLevel{
+    display:none !important;
+  }
+
+  /* sağ tarafta boşluk kalmasın */
+  .topbar__right{
+    gap: 6px;
+  }
+
+  /* tema butonu sağda kalsın */
+  #themeToggle{
+    margin-left: auto;
+  }
+}
 
