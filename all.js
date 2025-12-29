@@ -16,7 +16,6 @@ function escapeHtml(str){
 function render(){
   const qv = norm($("#q")?.value || "");
   const list = $("#list");
-  const count = $("#count");
   if(!list) return;
 
   let items = SONGS;
@@ -27,7 +26,7 @@ function render(){
   if(count) count.textContent = items.length.toString();
 
   if(!items.length){
-    list.innerHTML = `<div class="empty">Sonuç yok.</div>`;
+    list.innerHTML = `<div class="empty">Tınne</div>`;
     return;
   }
 
@@ -38,7 +37,7 @@ function render(){
         <div class="item__sub">${escapeHtml(s.artist)} </div>
       </div>
       <div class="badges">
-        <a class="open" href="${openLink(s)}">Aç</a>
+        <a class="open" href="${openLink(s)}">Veke</a>
       </div>
     </div>
   `).join("");
