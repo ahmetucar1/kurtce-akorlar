@@ -169,3 +169,75 @@ async function init(){
 }
 
 init().catch(console.error);
+
+
+// --- Live UI helpers (cursor glow, page transitions, reveals) ---
+(function(){
+  try{
+    const glow = document.createElement("div");
+    glow.id = "cursorGlow";
+    document.body.appendChild(glow);
+
+    let tx = -9999, ty = -9999, cx = -9999, cy = -9999;
+    const ease = 0.18;
+
+    window.addEventListener("pointermove", (e) => {
+      tx = e.clientX;
+      ty = e.clientY;
+    }, { passive:true });
+
+    function tick(){
+      cx += (tx - cx) * ease;
+      cy += (ty - cy) * ease;
+      document.documentElement.style.setProperty("--cgx", cx + "px");
+      document.documentElement.style.setProperty("--cgy", cy + "px");
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }catch(e){}
+
+  function ensureFade(){
+    let el = document.getElementById("pageFade");
+    if(!el){
+      el = document.createElement("div");
+      el.id = "pageFade";
+      document.body.appendChild(el);
+    }
+    return el;
+  }
+  const fade = ensureFade();
+
+  document.addEventListener("click", (ev) => {
+    const a = ev.target && ev.target.closest ? ev.target.closest("a[href]") : null;
+    if(!a) return;
+    const href = a.getAttribute("href") || "";
+    if(href.startsWith("#") || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:")) return;
+    if(a.target === "_blank" || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+
+    ev.preventDefault();
+    fade.classList.add("on");
+    setTimeout(() => { window.location.href = href; }, 170);
+  }, { capture:true });
+
+  window.__revealList = function(container){
+    try{
+      const root = typeof container === "string" ? document.querySelector(container) : container;
+      if(!root) return;
+      const items = root.querySelectorAll(".item");
+      items.forEach((el, i) => {
+        el.classList.remove("reveal");
+        el.style.setProperty("--i", i);
+        void el.offsetWidth;
+        el.classList.add("reveal");
+      });
+    }catch(e){}
+  };
+
+  document.addEventListener("click", (ev) => {
+    const b = ev.target && ev.target.closest ? ev.target.closest("[data-wiggle]") : null;
+    if(!b) return;
+    b.classList.remove("wiggle");
+    void b.offsetWidth;
+    b.classList.add("wiggle");
+  });
+})();
