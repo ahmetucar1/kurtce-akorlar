@@ -733,20 +733,8 @@ body::after{
   }
 }
 
-/* ===============================
-   MOBILE BRAND TITLE OVERRIDE
-   =============================== */
-
-@media (max-width: 640px){
-  .brand__title{
-    font-size: 0;          /* asıl yazıyı gizle */
-  }
-
+@media (max-width: 360px){
   .brand__title::after{
-    content: "Repertuara Kurdî";  /* yerine basılacak metin */
-    font-size: 20px;       /* mobilde görünecek boyut */
-    font-weight: 900;
-    letter-spacing: -0.04em;
-    white-space: nowrap;
+    font-size: 18px;
   }
 }
