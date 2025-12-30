@@ -145,8 +145,8 @@ main.container{ padding: 16px 0 76px; }
   .topbar__actions{ gap: 8px; }
 }
 @media (max-width: 390px){
-  .logo{ width: 84px; height: 84px; flex-basis: 84px; }
-  .brand__title{ font-size: 13px; max-width: calc(100vw - 210px); }
+  .logo{ width: 74px; height: 74px; flex-basis: 74px; }
+  .brand__title{ font-size: 15px; max-width: calc(100vw - 210px); }
 }
 
 /* =========================
