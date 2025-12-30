@@ -744,8 +744,3 @@ body::after{
   }
 }
 
-@media (max-width: 380px){
-  .brand__title{
-    font-size: 14px !important;
-  }
-}
