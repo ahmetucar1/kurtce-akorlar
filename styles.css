@@ -669,7 +669,7 @@ body > .topbar{
 
 /* Mobilde taşmasın */
 @media (max-width: 640px){
-  .logo{ width:98px; height:98px; }
+  .logo{ width:1098px; height:1098px; }
   .brand__title{ font-size: 20px; }
 }
 
