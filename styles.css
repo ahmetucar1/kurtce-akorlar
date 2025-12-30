@@ -743,7 +743,7 @@ body::after{
   }
 
   .brand__title::after{
-    content: "Küçükpark";
+    content: "Repertuara Kurdî";  /* yerine basılacak metin */
     font-size: 20px;       /* mobilde görünecek boyut */
     font-weight: 900;
     letter-spacing: -0.04em;
