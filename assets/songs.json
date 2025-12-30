@@ -815,7 +815,7 @@
   },
   {
     "song": "DESTMAL",
-    "artist": ["Şivan Perwer","İlkay Akkaya"],
+    "artist": "Şivan Perwer",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 26
@@ -1221,7 +1221,7 @@
   },
   {
     "song": "ŞIYE",
-    "artist": ["Mikail Aslan","Beser Şahin"],
+    "artist": "Mikail Aslan",
     "pdf": "pdf2.pdf",
     "volume": "PDF2",
     "page_original": 84
