@@ -420,7 +420,7 @@ main.container{ padding: 14px 0 70px; }
     --topbar-h: 92px;
     --logo-box: 92px;
   }
-  .brand__title{ max-width: calc(100vw - 220px); }
+  .brand__title{ max-width: calc(100vw - 120px); }
 }
 
 /* LIVE_BG_START */
