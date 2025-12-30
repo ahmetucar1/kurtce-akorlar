@@ -666,3 +666,69 @@ body::after{
   padding-top:10px;
   object-fit: cover;   /* 🔴 contain DEĞİL */
 }
+
+
+/* ===============================
+   SONG PAGE – PDF ARKA PLAN KAPAT
+   =============================== */
+
+.songWrap{
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.imgWrap{
+  background: #ffffff;              /* PDF arkası BEYAZ */
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+/* PDF / görselin kendisi */
+#img{
+  background: #ffffff;              /* ekstra garanti */
+}
+
+#img{
+  mix-blend-mode: normal !important;
+}
+
+/* ===============================
+   SONG PAGE – PDF KAĞIT EFEKTİ
+   =============================== */
+
+.songWrap{
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+/* PDF sayfasının oturduğu alan */
+.imgWrap{
+  background: #f8f8f8;                 /* hafif off-white kağıt */
+  border-radius: 14px;
+  overflow: hidden;
+
+  /* kağıt gölgesi */
+  box-shadow:
+    0 10px 28px rgba(0,0,0,.25),
+    0 2px 6px rgba(0,0,0,.18);
+}
+
+/* PDF / görsel */
+#img{
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #f8f8f8;                 /* transparan PDF’lere karşı garanti */
+  mix-blend-mode: normal !important;   /* arka planla karışmayı kapat */
+}
+
+/* Mobilde biraz daha yumuşak dursun */
+@media (max-width: 640px){
+  .imgWrap{
+    box-shadow:
+      0 8px 22px rgba(0,0,0,.28),
+      0 1px 4px rgba(0,0,0,.2);
+  }
+}
