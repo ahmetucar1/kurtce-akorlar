@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Repertûara Kurdî</title>
-<link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="styles.css" />
   <script>
     (function(){
@@ -18,107 +18,90 @@
 <body>
   <div class="home-page">
 
-  <header class="topbar">
-    <div class="container topbar__inner">
-      <a class="brand" href="index.html" aria-label="Anasayfa">
-  <img class="site-logo" src="assets/logo.png" alt="Repertûara Kurdî logo">
-  
-    <div class="brand__title brand__title--soft">Repertûara Kurdî</div><div class="brand__kurd"></div>
-  
-</a>
-      <div class="topbar__actions">
-        <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
-        <a class="btn btn--ghost btn--lg" href="all.html">Hemû</a>
-        
-      </div>
-    </div>
-  </header>
+    <header class="topbar">
+      <div class="container topbar__inner">
 
+        <a class="brand" href="index.html" aria-label="Anasayfa">
+          <img class="site-logo" src="assets/logo.png" alt="Repertûara Kurdî logo">
+          <span class="brand__title brand__title--soft">Repertûara Kurdî</span>
+        </a>
 
-  <main class="container">
-    <section class="homeTop">
-      <h1>Akorên stranên kurdî li yek rûpelê bibîne.</h1>
-      <p class="muted">Bigere, keşf bike, bitikîne, bibîne</p>
-
-      <div class="search" style="margin-left:auto; margin-right:auto;">
-        <span class="search__icon" aria-hidden="true">⌕</span>
-        <input id="q" class="search__input" type="search" placeholder="Stran an hunermend bigere…" autocomplete="off" />
-        <button id="clear" class="btn btn--ghost" type="button">Paqij</button>
-      </div>
-    </section>
-
-    <section class="homeListWrap">
-      <section class="resultsHeader">
-        <div class="resultsHeader__left">
-          <div class="resultsHeader__title">Yên Berçav</div>
+        <div class="topbar__actions">
+          <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
+          <a class="btn btn--ghost btn--lg" href="all.html">Hemû</a>
         </div>
-        <button id="scrollTop" class="btn btn--ghost" type="button">Jor</button>
+
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="homeTop">
+        <h1>Akorên stranên kurdî li yek rûpelê bibîne.</h1>
+        <p class="muted">Bigere, keşf bike, bitikîne, bibîne</p>
+
+        <div class="search" style="margin-left:auto; margin-right:auto;">
+          <span class="search__icon" aria-hidden="true">⌕</span>
+          <input id="q" class="search__input" type="search" placeholder="Stran an hunermend bigere…" autocomplete="off" />
+          <button id="clear" class="btn btn--ghost" type="button">Paqij</button>
+        </div>
       </section>
 
-      <section id="list" class="list"></section>
-    </section>
-
-    <section class="homeGrid">
-      <div class="homeMid">
-        <div class="visualCard visualCard--photo" style="background-image:url('pages/pdf2/page-3.png');">
-          <div class="visualCard__overlay">
-            <div class="visualCard__overlayTitle">Çavkanî</div>
-            <div class="muted"> Arşîva Helêzonîk Kreşendo (2 cild) </div>
+      <section class="homeListWrap">
+        <section class="resultsHeader">
+          <div class="resultsHeader__left">
+            <div class="resultsHeader__title">Yên Berçav</div>
           </div>
-        </div>
+          <button id="scrollTop" class="btn btn--ghost" type="button">Jor</button>
+        </section>
 
-      </div>
+        <section id="list" class="list"></section>
+      </section>
 
-      
-
-      <div class="homeSide">
-        <div class="visualCard">
-          <div class="visualCard__top">
-            <div class="visualCard__title">Repertûar</div>
-            <div class="muted">Agahîya Lîsteyê</div>
-          </div>
-          <div class="stats" id="stats" style="margin-top:12px;">
-            <div class="stat">
-              <div class="stat__n" id="statSongs">—</div>
-              <div class="stat__t muted">Stran</div>
-            </div>
-            <div class="stat">
-              <div class="stat__n" id="statArtists">—</div>
-              <div class="stat__t muted">Hunermend</div>
-            </div>
-            <div class="stat">
-              <div class="stat__n" id="statUpdated">2</div>
-              <div class="stat__t muted">Repertûar</div>
+      <section class="homeGrid">
+        <div class="homeMid">
+          <div class="visualCard visualCard--photo" style="background-image:url('pages/pdf2/page-3.png');">
+            <div class="visualCard__overlay">
+              <div class="visualCard__overlayTitle">Çavkanî</div>
+              <div class="muted"> Arşîva Helêzonîk Kreşendo (2 cild) </div>
             </div>
           </div>
         </div>
 
-      
-      </div>
-    </section>
+        <div class="homeSide">
+          <div class="visualCard">
+            <div class="visualCard__top">
+              <div class="visualCard__title">Repertûar</div>
+              <div class="muted">Agahîya Lîsteyê</div>
+            </div>
+            <div class="stats" id="stats" style="margin-top:12px;">
+              <div class="stat">
+                <div class="stat__n" id="statSongs">—</div>
+                <div class="stat__t muted">Stran</div>
+              </div>
+              <div class="stat">
+                <div class="stat__n" id="statArtists">—</div>
+                <div class="stat__t muted">Hunermend</div>
+              </div>
+              <div class="stat">
+                <div class="stat__n" id="statUpdated">2</div>
+                <div class="stat__t muted">Repertûar</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    
+      <footer class="footer muted">
+        <div class="footerRow" style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+          <span class="muted" style="text-align:left;">© Repertûara Kurdî</span>
+          <span class="muted" style="text-align:right;">Pêşvebir: Ahmet Uçar</span>
+        </div>
+      </footer>
+    </main>
 
-    <footer class="footer muted">
-      <div class="footerRow" style="
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  width:100%;
-">
-  <span class="muted" style="text-align:left;">
-    © Repertûara Kurdî
-  </span>
+    <script src="common.js"></script>
+    <script src="app.js"></script>
 
-  <span class="muted" style="text-align:right;">
-    Pêşvebir: Ahmet Uçar
-  </span>
-</div>
-
-    </footer>
-  </main>
-
-  <script src="common.js"></script>
-  <script src="app.js"></script>
+  </div>
 </body>
 </html>

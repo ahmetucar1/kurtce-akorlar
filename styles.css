@@ -1,10 +1,7 @@
 /* =========================================
-   Repertûara Kurdî — UI Styles (clean)
-   Arka plan katmanı: LIVE_BG_START/END bloğu korunur.
-   ========================================= */
-/* =========================================
-   Repertûara Kurdî — CLEAN STYLES
-   Header & mobile title fixed
+   Repertûara Kurdî — CLEAN (layout-safe)
+   Amaç: Mobilde üst bar tek satır, üst üste binme yok.
+   Arka plan bloğu LIVE_BG_START/END aynen korunur.
    ========================================= */
 
 /* ---------- Tokens ---------- */
@@ -18,8 +15,23 @@
   --shadow:0 18px 50px rgba(0,0,0,.35);
   --radius:18px;
 
+  /* Header sizing */
   --topbar-h: 88px;
   --logo-box: 88px;
+
+  /* Mobilde başlık küçülür, tek satır kalır */
+  --brand-size: 36px;
+  --brand-size-mobile: 14px;
+}
+
+[data-theme="light"]{
+  --bg:#f6f4ef;
+  --panel:rgba(255,255,255,.94);
+  --card:rgba(255,255,255,.90);
+  --text:#121521;
+  --muted:#4b5563;
+  --line:rgba(18,21,33,.12);
+  --shadow:0 18px 50px rgba(0,0,0,.12);
 }
 
 /* ---------- Base ---------- */
@@ -27,7 +39,7 @@
 html,body{ height:100%; }
 body{
   margin:0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
   background: var(--bg);
   color: var(--text);
   line-height:1.5;
@@ -35,558 +47,161 @@ body{
 }
 a{ color:inherit; text-decoration:none; }
 img{ display:block; max-width:100%; }
-.container{
-  width: min(1100px, calc(100% - 32px));
-  margin: 0 auto;
-}
-main.container{ padding: 14px 0 70px; }
-
-/* ---------- TOPBAR ---------- */
-.topbar{
-  position: sticky;
-  top:0;
-  z-index:50;
-  backdrop-filter: blur(14px);
-  background: rgba(14,18,30,.6);
-  border-bottom:1px solid var(--line);
-}
-
-.topbar__inner{
-  height: var(--topbar-h);
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-  padding:0;
-  flex-wrap:nowrap;
-}
-
-/* Brand */
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  min-width:0;
-  flex:1 1 auto;
-}
-
-/* LOGO (tek kontrol noktası) */
-.site-logo{
-  width: var(--logo-box);
-  height: 100%;
-  flex: 0 0 var(--logo-box);
-  object-fit: contain;
-  filter: drop-shadow(0 6px 18px rgba(0,0,0,.35));
-}
-
-/* BRAND TITLE (tek tanım) */
-.brand__title{
-  font-size: 36px;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Actions */
-.topbar__actions{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  flex-wrap:nowrap;
-}
-
-/* Buttons */
-.btn{
-  border:1px solid var(--line);
-  background: transparent;
-  color: var(--text);
-  padding:10px 14px;
-  border-radius: 14px;
-  font-weight:700;
-  cursor:pointer;
-  white-space: nowrap;
-}
-.btn:hover{ background: rgba(255,255,255,.08); }
-
-/* ---------- MOBILE FIX ---------- */
-@media (max-width: 640px){
-  :root{
-    --topbar-h: 96px;
-    --logo-box: 96px;
-  }
-
-  .brand__title{
-    font-size: 16px;     /* ✔️ İSTEDİĞİN ŞEY */
-    letter-spacing: -0.02em;
-    max-width: calc(100vw - 240px);
-  }
-
-  .btn{
-    padding:6px 10px;
-    font-size:13px;
-    border-radius:999px;
-  }
-}
-
-@media (max-width: 380px){
-  .brand__title{
-    font-size: 14px;
-  }
-}
-
-/* ---------- SONG PAGE ---------- */
-.songWrap{
-  background: var(--panel);
-  border-radius: var(--radius);
-  padding: 18px;
-}
-
-.imgWrap{
-  background: #f8f8f8;
-  border-radius: 14px;
-  overflow:hidden;
-  box-shadow:
-    0 10px 28px rgba(0,0,0,.25),
-    0 2px 6px rgba(0,0,0,.18);
-}
-
-#img{
-  width:100%;
-  height:auto;
-  display:block;
-  background:#f8f8f8;
-  mix-blend-mode: normal;
-}
-
-/* ---------- FOOTER ---------- */
-.footer{ margin-top: 12px; }
-.footerRow{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
-}
-
-/* ---------- Theme tokens ---------- */
-:root{
-  --bg:#0b0d12;
-  --panel:rgba(12,16,26,.72);
-  --card:rgba(255,255,255,.06);
-
-  --text:#eef2ff;
-  --muted:#a2abb8;
-  --line:rgba(255,255,255,.12);
-
-  --shadow:0 18px 50px rgba(0,0,0,.35);
-  --radius:18px;
-
-  --btn:rgba(255,255,255,.08);
-  --btnHover:rgba(255,255,255,.12);
-
-  --accent:#7c3aed;
-  --accent2:#22c55e;
-
-  --glass:rgba(14,18,30,.55);
-
-  /* HEADER sizing (logo barı büyütmesin) */
-  --topbar-h: 88px;     /* bar yüksekliği */
-  --logo-box: 88px;     /* logo kutusu genişliği */
-}
-
-[data-theme="light"]{
-  --bg:#f6f4ef;
-  --panel:rgba(255,255,255,.94);
-  --card:rgba(255,255,255,.90);
-
-  --text:#121521;
-  --muted:#4b5563;
-  --line:rgba(18,21,33,.12);
-
-  --shadow:0 18px 50px rgba(0,0,0,.12);
-
-  --btn:rgba(255,255,255,.70);
-  --btnHover:rgba(255,255,255,.92);
-
-  --accent:#c97b20;
-  --accent2:#1e8a6c;
-
-  --glass:rgba(255,255,255,.68);
-}
-
-/* ---------- Base ---------- */
-*{ box-sizing:border-box; }
-html,body{ height:100%; }
-body{
-  margin:0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-  color:var(--text);
-  background: var(--bg);
-  line-height:1.5;
-  overflow-x:hidden;
-}
-
-a{ color:inherit; text-decoration:none; }
-img{ max-width:100%; display:block; }
 .muted{ color:var(--muted); }
 
 .container{
   width: min(1100px, calc(100% - 32px));
   margin: 0 auto;
 }
-
 main.container{ padding: 14px 0 70px; }
 
-/* ---------- Topbar (single row, fixed height) ---------- */
+/* ---------- Topbar (NEVER wrap) ---------- */
 .topbar{
   position: sticky;
   top:0;
   z-index:50;
-  background: color-mix(in srgb, var(--glass) 82%, transparent);
-  border-bottom: 1px solid var(--line);
+  background: rgba(14,18,30,.6);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+  border-bottom:1px solid var(--line);
 }
 
 .topbar__inner{
-  height: var(--topbar-h);          /* bar büyümez */
-  padding: 0 !important;           /* padding barı şişirmesin */
+  height: var(--topbar-h);
+  padding: 0 !important;              /* bar şişmesin */
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:12px;
-  flex-wrap:nowrap;                 /* TEK SATIR */
+  flex-wrap:nowrap;                   /* TEK SATIR */
 }
 
-/* Brand block */
+/* Brand (left) */
 .brand{
   display:flex;
   align-items:center;
-  gap:14px;
-  min-width:0;
-  flex:1 1 auto;
+  gap:12px;
+  min-width:0;                        /* ellipsis çalışsın */
+  flex: 1 1 auto;
 }
 
-/* LOGO: img kendi kutusu kadar olsun */
+/* Logo (sol kutu) */
 .site-logo{
   width: var(--logo-box);
   height: 100%;
-  flex: 0 0 var(--logo-box);
-  object-fit: contain;              /* kesmeden sığdır */
-  filter: drop-shadow(0 10px 22px rgba(0,0,0,.28));
+  flex: 0 0 var(--logo-box);          /* asla küçülme */
+  object-fit: contain;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,.35));
 }
 
-/* Title */
+/* Title (tek tanım) */
 .brand__title{
+  font-size: var(--brand-size);
   font-weight: 900;
-  letter-spacing: -.05em;
+  letter-spacing: -0.04em;
   line-height: 1.05;
-  font-size: 38px;
+
+  /* taşarsa kes, satır kırma */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   min-width:0;
 }
 
-/* Eğer title div içinde gelirse (bazı sayfalarda) */
-.brand > div{ min-width:0; }
-.brand > div .brand__title{ display:block; }
+/* empty helper (varsa sorun çıkarma) */
+.brand__kurd{ display:none; }
 
-/* Sağ taraf butonlar */
-.topbar__actions,
-.topbar__right{
+/* Actions (right) */
+.topbar__actions{
   display:flex;
   align-items:center;
   gap:10px;
-  flex-wrap:nowrap;                 /* TEK SATIR */
-  flex:0 0 auto;
+  flex-wrap:nowrap;                   /* TEK SATIR */
+  flex: 0 0 auto;
 }
 
-/* ---------- Buttons ---------- */
+/* Buttons */
 .btn{
   appearance:none;
   border:1px solid var(--line);
-  background: var(--btn);
-  color:var(--text);
-  padding:10px 12px;
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  padding:10px 14px;
   border-radius: 14px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1;
   cursor:pointer;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-  font-weight:800;
-  font-size:14px;
-  line-height:1;
   white-space: nowrap;
-  transition: transform .08s ease, background .15s ease, border-color .15s ease;
 }
-.btn:hover{ background: var(--btnHover); }
-.btn:active{ transform: translateY(1px); }
+.btn:hover{ background: rgba(255,255,255,.10); }
 .btn--ghost{ background: transparent; }
 .btn--lg{ padding: 10px 14px; border-radius: 16px; }
 
-/* ---------- Home header ---------- */
-.homeTop{
-  text-align:center;
-  max-width: 760px;
-  margin: 10px auto 0;
-}
-.homeTop h1{
-  margin:0 0 8px;
-  font-size: 30px;
-  letter-spacing: -.03em;
-}
+/* ---------- Home (basic) ---------- */
+.homeTop{ text-align:center; max-width:760px; margin:10px auto 0; }
+.homeTop h1{ margin:0 0 8px; font-size:30px; letter-spacing:-.03em; }
 .homeTop p{ margin:0; }
 
-/* ---------- Search ---------- */
 .search{
-  margin-top: 14px;
+  margin-top:14px;
   display:flex;
   align-items:center;
   gap:10px;
-  padding: 12px 12px;
-  border-radius: 18px;
+  padding:12px;
+  border-radius:18px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border:1px solid var(--line);
   box-shadow: var(--shadow);
 }
-.search__icon{ opacity:.85; }
 .search__input{
   flex:1 1 auto;
-  min-width: 0;
+  min-width:0;
   border:0;
   outline:0;
-  background: transparent;
-  color: var(--text);
-  font-size: 15px;
+  background:transparent;
+  color:var(--text);
+  font-size:15px;
 }
 
-/* ---------- Results header ---------- */
-.resultsHeader{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  margin-top: 16px;
-}
-.resultsHeader__title{
-  font-size: 18px;
-  font-weight: 900;
-  letter-spacing: -.02em;
-}
-
-/* ---------- List cards ---------- */
-.list{ display:grid; gap:10px; margin-top: 10px; }
-
-.item{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-  padding: 14px 14px;
-  border-radius: var(--radius);
-  background: var(--panel);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-.item__left{ min-width: 0; }
-.item__title{
-  font-weight: 900;
-  letter-spacing: -.02em;
-  font-size: 16px;
-}
-.item__sub{
-  margin-top: 4px;
-  font-size: 13px;
-  color: var(--muted);
-  overflow:hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.artistLink{
-  color: inherit;
-  border-bottom: 1px solid transparent;
-}
-.artistLink:hover{ border-bottom-color: currentColor; }
-
-.badges{ display:flex; gap:8px; flex-wrap:wrap; }
-
-.open{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  padding: 9px 12px;
-  border-radius: 14px;
-  border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--line));
-  background: color-mix(in srgb, var(--accent) 18%, var(--btn));
-  font-weight: 900;
-}
-.open:hover{
-  background: color-mix(in srgb, var(--accent) 24%, var(--btnHover));
-}
-
-.empty{
-  padding: 16px;
-  border-radius: var(--radius);
-  background: var(--panel);
-  border: 1px dashed var(--line);
-  color: var(--muted);
-  text-align:center;
-}
-
-/* ---------- Home grid cards ---------- */
-.homeGrid{
-  margin-top: 18px;
-  display:grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-  align-items:start;
-}
-.homeMid, .homeSide{ display:grid; gap:12px; }
-
-.visualCard{
-  padding: 16px;
-  border-radius: var(--radius);
-  background: var(--panel);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-.visualCard__top{
-  display:flex;
-  align-items:baseline;
-  justify-content:space-between;
-  gap:10px;
-}
-.visualCard__title{ font-weight: 950; letter-spacing:-.02em; }
-
-.visualCard--photo{
-  padding:0;
-  min-height: 200px;
-  position:relative;
-  background-size:cover;
-  background-position:center;
-  overflow:hidden;
-}
-.visualCard--photo::before{
-  content:"";
-  position:absolute; inset:0;
-  background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.08));
-}
-[data-theme="light"] .visualCard--photo::before{
-  background: linear-gradient(to top, rgba(255,255,255,.72), rgba(255,255,255,.14));
-}
-.visualCard__overlay{
-  position:absolute;
-  left:14px; right:14px; bottom:14px;
-  padding: 12px 12px;
-}
-.visualCard__overlayTitle{ font-weight:950; }
-
-/* Stats */
-.stats{
-  display:grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
-  gap: 10px;
-  margin-top: 12px;
-}
-.stat{
-  padding: 12px;
-  border-radius: 16px;
-  background: var(--card);
-  border: 1px solid var(--line);
-  text-align:center;
-}
-.stat__n{ font-size: 20px; font-weight: 950; letter-spacing:-.02em; }
-.stat__t{ font-size: 12px; color:var(--muted); }
-
-/* ---------- Song page ---------- */
-.songPage{
-  display:grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-  align-items:start;
-}
-.songWrap{ max-width: 920px; margin: 0 auto; }
-#songName{ text-align:center; font-size: 22px; margin-top: 4px; }
-#songArtist{ text-align:center; color: var(--muted); }
-
-.imgWrap{
-  margin-top: 12px;
-  border-radius: var(--radius);
-  overflow:hidden;
-  border: 1px solid var(--line);
-  background: var(--card);
-  background-color: #eef2ff;
-  box-shadow: var(--shadow);
-}
-#img{ width:100%; height:auto; display:block; transform-origin: top center; }
-
-.songAside{
-  width: 100%;
-  padding: 14px;
-  border-radius: var(--radius);
-  background: var(--panel);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  margin-top: 12px;
-}
-
-.youtubeCard{
-  margin: 0 0 12px;
-  padding: 14px;
-  border-radius: var(--radius);
-  background: var(--panel);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-.youtubeWrap{
-  margin-top: 10px;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background: #000;
-}
-
-/* ---------- Footer ---------- */
-.footer{ margin-top: 10px; padding-top: 10px; }
-.footerRow{ display:flex; justify-content:space-between; align-items:center; gap:10px; }
-
-/* ---------- Wider screens ---------- */
-@media (min-width: 820px){
-  .homeTop h1{ font-size: 38px; }
-  .homeGrid{ grid-template-columns: 1.15fr .85fr; gap: 14px; margin-top: 28px; }
-  .songPage{ grid-template-columns: 1.2fr .8fr; gap: 14px; }
-}
-
-/* ---------- Mobile: tek satır + logo maksimum ---------- */
+/* ---------- Mobile: hepsi yan yana, üst üste binme yok ---------- */
 @media (max-width: 640px){
   :root{
-    --topbar-h: 96px;
-    --logo-box: 96px;
+    --topbar-h: 84px;       /* barı çok şişirmeden */
+    --logo-box: 70px;       /* sol kutu */
+    --brand-size: var(--brand-size-mobile);
+  }
+
+  .container{
+    width: calc(100% - 20px); /* mobilde daha çok alan */
+  }
+
+  /* title alanını sağ butonlara göre güvenli tut */
+  .brand__title{
+    max-width: calc(100vw - (70px + 20px + 110px)); 
+    /* logo + gap + sağ butonlar için kabaca pay */
+    letter-spacing: -0.01em;
+  }
+
+  .topbar__actions{ gap:8px; }
+
+  .btn{
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 999px;
+  }
+}
+
+/* çok dar ekran (iPhone SE vs) */
+@media (max-width: 380px){
+  :root{
+    --logo-box: 64px;
+    --brand-size: 13px;
   }
 
   .brand__title{
-    font-size: 20px;
-    /* logo + butonlar için güvenli alan */
-    max-width: calc(100vw - 240px);
+    max-width: calc(100vw - 190px);
   }
-
-  .topbar__actions .btn{
-    padding:6px 10px;
-    font-size:13px;
-    border-radius:999px;
-  }
-}
-
-@media (max-width: 380px){
-  :root{
-    --topbar-h: 92px;
-    --logo-box: 92px;
-  }
-  .brand__title{ max-width: calc(50vw - 120px); }
 }
 
 /* LIVE_BG_START */
@@ -703,7 +318,7 @@ body > .topbar{
 /* Mobilde taşmasın */
 
   .brand__title{ font-size: 30px; }
-
+}
 
 /* ---- Background layers ---- */
 body{
@@ -825,89 +440,3 @@ body::after{
 }
 
 /* LIVE_BG_END */
-
-.site-logo{
-  width: 20%;
-  height: 20%;
-  padding-top:10px;
-  object-fit: cover;   /* 🔴 contain DEĞİL */
-}
-
-
-/* ===============================
-   SONG PAGE – PDF ARKA PLAN KAPAT
-   =============================== */
-
-.songWrap{
-  background: var(--panel);
-  border-radius: var(--radius);
-  padding: 16px;
-}
-
-.imgWrap{
-  background: #ffffff;              /* PDF arkası BEYAZ */
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-/* PDF / görselin kendisi */
-#img{
-  background: #ffffff;              /* ekstra garanti */
-}
-
-#img{
-  mix-blend-mode: normal !important;
-}
-
-/* ===============================
-   SONG PAGE – PDF KAĞIT EFEKTİ
-   =============================== */
-
-.songWrap{
-  background: var(--panel);
-  border-radius: var(--radius);
-  padding: 18px;
-}
-
-/* PDF sayfasının oturduğu alan */
-.imgWrap{
-  background: #f8f8f8;                 /* hafif off-white kağıt */
-  border-radius: 14px;
-  overflow: hidden;
-
-  /* kağıt gölgesi */
-  box-shadow:
-    0 10px 28px rgba(0,0,0,.25),
-    0 2px 6px rgba(0,0,0,.18);
-}
-
-/* PDF / görsel */
-#img{
-  display: block;
-  width: 100%;
-  height: auto;
-  background: #f8f8f8;                 /* transparan PDF’lere karşı garanti */
-  mix-blend-mode: normal !important;   /* arka planla karışmayı kapat */
-}
-
-/* Mobilde biraz daha yumuşak dursun */
-@media (max-width: 640px){
-  .imgWrap{
-    box-shadow:
-      0 8px 22px rgba(0,0,0,.28),
-      0 1px 4px rgba(0,0,0,.2);
-  }
-}
-
-/* ===============================
-   MOBILE BRAND TITLE – SMALL
-   =============================== */
-@media (max-width: 640px){
-  .brand__title{
-    font-size: 20px !important;
-    line-height: 1.1 !important;
-    letter-spacing: -0.02em !important;
-    margin-right: 20px;
-  }
-}
-
