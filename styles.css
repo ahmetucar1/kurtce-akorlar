@@ -539,3 +539,39 @@ body{
   border: 1px solid var(--line);
   background: #000;
 }
+
+.topbar{
+  border-bottom: none;
+}
+
+.logo{
+  width:150px;
+  height:150px;
+  background: transparent;
+  border: none;
+}
+
+
+
+.brand__title{
+  font-size: 32px;
+  font-weight: 850;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.brand{
+  gap:14px;
+}
+
+
+@media (max-width: 640px){
+  .logo{
+    width:48px;
+    height:48px;
+  }
+
+  .brand__title{
+    font-size: 22px;
+  }
+}
