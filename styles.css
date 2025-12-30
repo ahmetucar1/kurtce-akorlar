@@ -146,7 +146,7 @@ main.container{ padding: 16px 0 76px; }
 }
 @media (max-width: 390px){
   .logo{ width: 84px; height: 84px; flex-basis: 84px; }
-  .brand__title{ font-size: 20px; max-width: calc(100vw - 210px); }
+  .brand__title{ font-size: 10px; max-width: calc(100vw - 210px); }
 }
 
 /* =========================
@@ -517,18 +517,6 @@ select.btn{
   opacity:.20;
 }
 
-/* İçerik hep üstte kalsın */
-body > header,
-body > main,
-  position: relative;
-  z-index: 2;
-}
-
-/* Kart/panel: arkayı hissettirsin */
-  background: var(--panel);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
 
 /* Grain/vignette/notes sahnenin parçası */
 .bgGrain, .bgVignette, .bgNotes{
@@ -545,26 +533,16 @@ body > main,
    ========================= */
 
 /* Logo: kart yok, abartı boyut */
-  width:110px;
-  height:110px;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  overflow: hidden;
-}
 
 
-  font-size: 40px;
-  font-weight: 900;
-  letter-spacing: -0.05em;
-  line-height: 1;
-}
+
+
 
 /* Üst bar alt çizgi kapalı (logo öne çıksın) */
 
 /* Mobilde taşmasın */
 
-}
+
 
 /* ---- Background layers ---- */
 body{
