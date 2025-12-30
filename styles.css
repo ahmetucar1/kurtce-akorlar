@@ -537,7 +537,7 @@ body > .topbar{
 /* Mobilde taşmasın */
 
   .brand__title{ font-size: 30px; }
-}
+
 
 /* ---- Background layers ---- */
 body{
@@ -733,8 +733,3 @@ body::after{
   }
 }
 
-@media (max-width: 360px){
-  .brand__title{
-    font-size: 10px;
-  }
-}
