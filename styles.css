@@ -522,3 +522,19 @@ body{
   }
 }
 
+.youtubeCard{
+  margin-bottom: 16px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.youtubeWrap{
+  margin-top: 10px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #000;
+}

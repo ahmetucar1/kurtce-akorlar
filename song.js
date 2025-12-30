@@ -1,6 +1,11 @@
 // song.js — tek şarkı sayfası
 const CROPPED_PAGES = 7; // PDF kırpma sonrası PNG index kayması
 
+// 🔴 YouTube API KEY
+const YT_API_KEY = "AIzaSyBugpUSW2MwR6lDMzCHcnB0PoSV8lDEu2Q";
+
+// --------------------
+// yardımcılar
 function makeId(s){ return `${s.pdf}|${s.page_original}`; }
 function openLink(s){ return `song.html?id=${encodeURIComponent(makeId(s))}`; }
 
@@ -61,6 +66,34 @@ function setZoom(img, z){
   return clamped;
 }
 
+// --------------------
+// 🔴 YouTube video yükleyici
+function loadYoutubeVideo(song, artist){
+  if(!song || !artist) return;
+
+  const q = encodeURIComponent(`${artist} ${song}`);
+  const url =
+    `https://www.googleapis.com/youtube/v3/search` +
+    `?part=snippet&type=video&maxResults=1&order=relevance&q=${q}&key=${YT_API_KEY}`;
+
+  fetch(url)
+    .then(r => r.json())
+    .then(d => {
+      if(!d.items || !d.items.length) return;
+
+      const videoId = d.items[0].id.videoId;
+      const iframe = document.getElementById("youtubeFrame");
+      const card = document.getElementById("youtubeCard");
+
+      if(!iframe || !card) return;
+
+      iframe.src = `https://www.youtube.com/embed/${videoId}`;
+      card.style.display = "block";
+    })
+    .catch(err => console.warn("YouTube hata:", err));
+}
+
+// --------------------
 async function init(){
   const res = await fetch("assets/songs.json", { cache: "no-store" });
   const SONGS = await res.json();
@@ -73,6 +106,10 @@ async function init(){
 
   const img = $("#img");
   img.src = imagePath(current);
+
+  // 🔴 YouTube çağrısı (ilk sanatçıyı baz alır)
+  const firstArtist = artistArr(current.artist)[0];
+  loadYoutubeVideo(current.song, firstArtist);
 
   // zoom
   let zoom = 1;
@@ -87,9 +124,10 @@ async function init(){
   const recEl = $("#recs");
   const renderRecs = () => {
     const curArtists = new Set(artistArr(current.artist).map(a => norm(a)));
-    const preferred = pool.filter(s => artistArr(s.artist).some(a => curArtists.has(norm(a))));
+    const preferred = pool.filter(s =>
+      artistArr(s.artist).some(a => curArtists.has(norm(a)))
+    );
     const first = pickRandom(preferred, 6);
-    // yetmezse karışık havuzdan tamamla
     const need = Math.max(0, 6 - first.length);
     const restPool = pool.filter(s => !first.some(x => makeId(x) === makeId(s)));
     const recs = first.concat(pickRandom(restPool, need));
