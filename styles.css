@@ -523,7 +523,7 @@ body{
 }
 
 .youtubeCard{
-  margin-bottom: 16px;
+  margin: 0 0 12px;
   padding: 14px;
   border-radius: var(--radius);
   background: var(--panel);

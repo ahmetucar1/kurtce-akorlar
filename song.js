@@ -71,27 +71,57 @@ function setZoom(img, z){
 function loadYoutubeVideo(song, artist){
   if(!song || !artist) return;
 
+  const card = document.getElementById("youtubeCard");
+  const iframe = document.getElementById("youtubeFrame");
+  if(!card || !iframe) return;
+
   const q = encodeURIComponent(`${artist} ${song}`);
-  const url =
+
+  // 1) Arama: birkaç aday videoId topla
+  const searchUrl =
     `https://www.googleapis.com/youtube/v3/search` +
-    `?part=snippet&type=video&maxResults=1&order=relevance&q=${q}&key=${YT_API_KEY}`;
+    `?part=snippet&type=video&maxResults=10&order=relevance&q=${q}&key=${YT_API_KEY}`;
 
-  fetch(url)
+  fetch(searchUrl)
     .then(r => r.json())
-    .then(d => {
-      if(!d.items || !d.items.length) return;
+    .then(async d => {
+      if(d.error){
+        // Genelde sebep: API key referrer restriction (localhost izinli değil)
+        console.warn("YouTube API error:", d.error);
+        return;
+      }
 
-      const videoId = d.items[0].id.videoId;
-      const iframe = document.getElementById("youtubeFrame");
-      const card = document.getElementById("youtubeCard");
+      const ids = (d.items || [])
+        .map(it => it?.id?.videoId)
+        .filter(Boolean);
 
-      if(!iframe || !card) return;
+      if(!ids.length) return;
 
-      iframe.src = `https://www.youtube.com/embed/${videoId}`;
+      // 2) videos.list ile gerçekten embed edilebilir olanı seç
+      const listUrl =
+        `https://www.googleapis.com/youtube/v3/videos` +
+        `?part=status&id=${ids.join(",")}&key=${YT_API_KEY}`;
+
+      const lr = await fetch(listUrl);
+      const list = await lr.json();
+      if(list.error){
+        console.warn("YouTube videos.list error:", list.error);
+        return;
+      }
+
+      const ok = (list.items || []).find(v =>
+        v?.status?.embeddable === true &&
+        (v?.status?.privacyStatus === "public" || v?.status?.privacyStatus === "unlisted")
+      );
+
+      if(!ok?.id) return;
+
+      iframe.src = `https://www.youtube.com/embed/${ok.id}`;
       card.style.display = "block";
     })
     .catch(err => console.warn("YouTube hata:", err));
 }
+
 
 // --------------------
 async function init(){
