@@ -806,3 +806,60 @@ body::after,
 .bgNotes {
   display: none !important;
 }
+@media (max-width: 640px){
+
+  .topbar__inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    flex-wrap:nowrap;
+    padding: 8px 0;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex:1 1 auto;
+    min-width:0;
+  }
+
+  .logo{
+    width:96px;
+    height:96px;
+    flex:0 0 96px;
+  }
+
+  .logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+  }
+
+  .brand__title{
+    font-size:22px;
+    line-height:1.05;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+  .brand__sub,
+  .brand__kurd{
+    display:none;
+  }
+
+  .topbar__actions{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    flex:0 0 auto;
+  }
+
+  .topbar__actions .btn{
+    padding:6px 10px;
+    font-size:13px;
+    border-radius:999px;
+  }
+}
