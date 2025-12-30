@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Repertûara Kurdî</title>
+  <title>Hunermend • Repertûara Kurdî</title>
   <link rel="stylesheet" href="styles.css" />
   <script>
     (function(){
@@ -20,19 +20,16 @@
   <header class="topbar">
     <div class="container topbar__inner">
       <a class="brand" href="index.html" aria-label="Anasayfa">
-  <div class="logo" aria-hidden="true">
-    <img src="assets/logo.png" alt="Repertûara Kurdî logo">
-    
-  </div>
-  
-  <div>
-    <div class="brand__title brand__title--soft">Repertûara Kurdî</div><div class="brand__kurd"></div>
-  </div>
-</a>
+        <div class="logo" aria-hidden="true">
+          <img src="assets/logo.png" alt="Repertûara Kurdî logo">
+        </div>
+        <div>
+          <div class="brand__title brand__title--soft">Repertûara Kurdî</div><div class="brand__kurd"></div>
+        </div>
+      </a>
       <div class="topbar__actions">
         <button id="themeToggle" class="btn btn--ghost btn--lg" type="button" title="Tema">🌙 / ☀️</button>
         <a class="btn btn--ghost btn--lg" href="all.html">Hemû</a>
-        
       </div>
     </div>
   </header>
@@ -40,40 +37,36 @@
   <main class="container">
     <section class="resultsHeader" style="margin-top:10px;">
       <div class="resultsHeader__left">
-        <div class="resultsHeader__title">Hemû Stran</div>
+        <div class="resultsHeader__title" id="artistName">Hunermend</div>
         <br>
-        <div class="muted"><span id="count">0</span> Hejmara</div>
+        <div class="muted"><span id="count">0</span> Stran</div>
+      </div>
+      <div class="resultsHeader__right" style="display:flex; gap:10px; align-items:center;">
+        <select id="sort" class="btn btn--ghost" aria-label="Rêzkirin">
+          <option value="normal">Rêzkirin: Asayî</option>
+          <option value="az">Rêzkirin: A–Z</option>
+        </select>
+        <a class="btn btn--ghost" href="all.html">Vegere</a>
       </div>
     </section>
 
     <div class="search" style="margin-top:25px;">
       <span class="search__icon" aria-hidden="true">⌕</span>
-      <input id="q" class="search__input" type="search" placeholder="Stran an hunermend bigere…" autocomplete="off" />
+      <input id="q" class="search__input" type="search" placeholder="Di nav stranên vî hunermendî de bigere…" autocomplete="off" />
       <button id="clear" class="btn btn--ghost" type="button">Paqij</button>
     </div>
 
     <section id="list" class="list" style="margin-top:45px;"></section>
 
-     <footer class="footer muted">
-      <div class="footerRow" style="
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  width:100%;
-">
-  <span class="muted" style="text-align:left;">
-    © Repertûara Kurdî
-  </span>
-
-  <span class="muted" style="text-align:right;">
-    Pêşvebir: Ahmet Uçar
-  </span>
-</div>
-
+    <footer class="footer muted">
+      <div class="footerRow" style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+        <span class="muted" style="text-align:left;">© Repertûara Kurdî</span>
+        <span class="muted" style="text-align:right;">Pêşvebir: Ahmet Uçar</span>
+      </div>
     </footer>
   </main>
 
   <script src="common.js"></script>
-  <script src="all.js"></script>
+  <script src="artist.js"></script>
 </body>
 </html>
