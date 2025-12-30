@@ -1,1334 +1,1520 @@
-[
-
-  {
-    "song": "AVA SÛSÊ",
-    "artist": "Koma Hemdem",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 2
-  },
-  {
-    "song": "ARIX",
-    "artist": "Nilüfer Akbal",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 3
-  },
-  {
-    "song": "BARANA ŞEVÊ",
-    "artist": "Xero Abbas",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 4
-  },
-  {
-    "song": "AX WELAT",
-    "artist": "Rojda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 5
-  },
-  {
-    "song": "AY LÊ GULÊ",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 6
-  },
-  {
-    "song": "BEYADÎ",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 7
-  },
-  {
-    "song": "BENDA TE ME",
-    "artist": "Rotînda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 8
-  },
-  {
-    "song": "BERFîN",
-    "artist": "Bajar",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 9
-  },
-  {
-    "song": "BIHIŞT",
-    "artist": "Rotînda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 10
-  },
-  {
-    "song": "BIRÎNDAR KIRIM",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 11
-  },
-  {
-    "song": "BIRÎNDAR IM",
-    "artist": "Kutup Yıldızı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 12
-  },
-  {
-    "song": "COTKARO",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 13
-  },
-  {
-    "song": "ÇARÇÊLA",
-    "artist": "Rotînda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 14
-  },
-  {
-    "song": "ÇAVÊ MIN RONÎ",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 15
-  },
-  {
-    "song": "ÇAW BELLA",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 16
-  },
-  {
-    "song": "ÇAW CIWANA LEYLA",
-    "artist": "Ahmed Xelîl",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 17
-  },
-  {
-    "song": "ÇIYAYÊ ME BERFÊ",
-    "artist": "Koma Amed",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 18
-  },
-  {
-    "song": "ÇÛ",
-    "artist": "Hîvron",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 19
-  },
-  {
-    "song": "DAYÊ WELAT ŞÊRîN E",
-    "artist": "Kerem Sevinç",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 20
-  },
-  {
-    "song": "DE BE WAYİRO",
-    "artist": "Ahmet Aslan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 21
-  },
-  {
-    "song": "ÇAVREŞ",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 22
-  },
-  {
-    "song": "DîROK",
-    "artist": "Hogir",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 23
-  },
-  {
-    "song": "EGÎD DÛR NEÇE",
-    "artist": "Îbrahîm Rojhilat",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 24
-  },
-  {
-    "song": "ELQAJÎYÊ",
-    "artist": "Mikail Aslan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 25
-  },
-  {
-    "song": "EMAN HEYLÊ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 26
-  },
-  {
-    "song": "NAZIKÊ",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 27
-  },
-  {
-    "song": "EVDO",
-    "artist": "Rojda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 28
-  },
-  {
-    "song": "HEVÎ Û EVÎN",
-    "artist": "Xero Abbas",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 29
-  },
-  {
-    "song": "EY HEVALA EVÎNDAR",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 30
-  },
-  {
-    "song": "EY YARAN",
-    "artist": "Tara Jaff",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 31
-  },
-  {
-    "song": "EZ WELAT IM",
-    "artist": "Delîl Dîlanar",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 32
-  },
-  {
-    "song": "GELAWÊJ",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 33
-  },
-  {
-    "song": "GELMİŞ BAHAR",
-    "artist": "Rojda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 34
-  },
-  {
-    "song": "GIRÊ SİRA",
-    "artist": "Burhan Berken",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 35
-  },
-  {
-    "song": "GULÊ NEÇE",
-    "artist": "Diyar",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 36
-  },
-  {
-    "song": "HARUNÊ MIN",
-    "artist": "Birader",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 37
-  },
-  {
-    "song": "HATE BER DERÎ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 38
-  },
-  {
-    "song": "HAVÎN Î",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 39
-  },
-  {
-    "song": "HÊLÎN",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 40
-  },
-  {
-    "song": "HERDU ÇAVÊ MIN",
-    "artist": "Grup Yorum",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 41
-  },
-  {
-    "song": "HERNE PÊŞ",
-    "artist": "Grup Yorum",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 42
-  },
-  {
-    "song": "HERNEPEŞ KARKERNO",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 43
-  },
-  {
-    "song": "HESTÊ ADARÊ",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 44
-  },
-  {
-    "song": "HEVALNO",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 45
-  },
-  {
-    "song": "ÎRO DÎSA",
-    "artist": "Koma Amed",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 46
-  },
-  {
-    "song": "JIYAN",
-    "artist": "İlkay Akkaya",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 47
-  },
-  {
-    "song": "KA WELATÊ TE",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 48
-  },
-  {
-    "song": "KAR XEZALÊ",
-    "artist": "Rewşen",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 49
-  },
-  {
-    "song": "KEÇA KURDAN",
-    "artist": "Aynur Doğan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 50
-  },
-  {
-    "song": "KURDIYA MIN",
-    "artist": "Hakan Can",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 51
-  },
-  {
-    "song": "LO BERDE",
-    "artist": "Umut Altınçağ",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 52
-  },
-  {
-    "song": "LI XWE BAŞ BINÊRE",
-    "artist": "Turan Şengül",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 53
-  },
-  {
-    "song": "LO ŞIVANO",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 54
-  },
-  {
-    "song": "LOLO PISMAMO",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 55
-  },
-  {
-    "song": "MIZGÎNA ÇELENG",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 56
-  },
-  {
-    "song": "NAŞTA AŞTA",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 57
-  },
-  {
-    "song": "NEWROZ E",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 58
-  },
-  {
-    "song": "NISÊBÎNA RENGÎN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 59
-  },
-  {
-    "song": "OREMAR",
-    "artist": "Awazê Çiya",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 60
-  },
-  {
-    "song": "PAYIZ E",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 61
-  },
-  {
-    "song": "PEJNA TE NAYÊ",
-    "artist": "Burhan Berken",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 62
-  },
-  {
-    "song": "PEL Û PAYÎZ",
-    "artist": "Mahabad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 63
-  },
-  {
-    "song": "PUKELEKA",
-    "artist": "Grup Munzur",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 64
-  },
-  {
-    "song": "QÊRÎN",
-    "artist": "Rotînda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 65
-  },
-  {
-    "song": "REHŞAN",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 66
-  },
-  {
-    "song": "REVOKO",
-    "artist": "Koma Rewşen",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 67
-  },
-  {
-    "song": "REWEND",
-    "artist": "Aynur Doğan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 68
-  },
-  {
-    "song": "SARYA",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 69
-  },
-  {
-    "song": "SERHILDAN JIYAN E",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 70
-  },
-  {
-    "song": "ŞIKRAYE",
-    "artist": "Mihemed Şexo",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 71
-  },
-  {
-    "song": "TE EZ KAL KIRIM",
-    "artist": "Aram Tigran",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 72
-  },
-  {
-    "song": "TEWT",
-    "artist": "Mikail Aslan",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 73
-  },
-  {
-    "song": "TU BÛY DENGÊ ÎSA",
-    "artist": "Koma Denge Azadî",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 74
-  },
-  {
-    "song": "TU CIWAN Î",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 75
-  },
-  {
-    "song": "TU GULÎ",
-    "artist": "Koma Mizgin",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 76
-  },
-  {
-    "song": "TU WER E",
-    "artist": "Rotînda",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 77
-  },
-  {
-    "song": "TU YÎ BIHIŞTA MIN",
-    "artist": "Koma Azad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 78
-  },
-  {
-    "song": "VENAGERE",
-    "artist": "Türkan Akay",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 79
-  },
-  {
-    "song": "WELAT PERESTİ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 80
-  },
-  {
-    "song": "WELATÊ MIN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 81
-  },
-  {
-    "song": "WENDA",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 82
-  },
-  {
-    "song": "VENSEREMOS",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 83
-  },
-  {
-    "song": "XEMILÎ ZOZAN",
-    "artist": "Aram Tigran",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 84
-  },
-  {
-    "song": "XERÎB IM",
-    "artist": "Koma Azad",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 85
-  },
-  {
-    "song": "XERÎBIYÊ",
-    "artist": "Rewşen",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 86
-  },
-  {
-    "song": "YADÊ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 87
-  },
-  {
-    "song": "YÊRÎVAN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 88
-  },
-  {
-    "song": "ZAGROS",
-    "artist": "Rewşen",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 89
-  },
-  {
-    "song": "ZEKÎYE",
-    "artist": "Berfina Besta",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 90
-  },
-  {
-    "song": "ZEMANO",
-    "artist": "Xero Abbas",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 91
-  },
-  {
-    "song": "ZEVIYÊN EDABÊ",
-    "artist": "Koma Rewşen",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 92
-  },
-  {
-    "song": "ZOZAN",
-    "artist": "Ahmed Xelîl",
-    "pdf": "pdf1.pdf",
-    "volume": "PDF1",
-    "page_original": 93
-  },
- 
-  {
-    "song": "AX LÊ GIDYE",
-    "artist": "Rojda",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 2
-  },
-  {
-    "song": "AZADE",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 3
-  },
-  {
-    "song": "BEHR",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 4
-  },
-  {
-    "song": "BÊRÎVANÊ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 5
-  },
-  {
-    "song": "CANÊ CANÊ",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 6
-  },
-  {
-    "song": "AMEDIYÊ",
-    "artist": "Koma Amed",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 7
-  },
-  {
-    "song": "AMEDÊ",
-    "artist": "Bülent Turan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 8
-  },
-  {
-    "song": "DIYARBEKIR",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 9
-  },
-  {
-    "song": "GULFIROŞ",
-    "artist": "Burhan Berken",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 10
-  },
-  {
-    "song": "DÊRA SORÊ",
-    "artist": "Rojhan Beken",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 11
-  },
-  {
-    "song": "ADARÊ",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 12
-  },
-  {
-    "song": "AX LÊ KINÊ",
-    "artist": "Koma Denge Azadî",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 13
-  },
-  {
-    "song": "AY DÎLBERÊ",
-    "artist": "Aram Tigran",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 14
-  },
-  {
-    "song": "AX Û AMAN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 15
-  },
-  {
-    "song": "AY LO DILO",
-    "artist": "Koma Venge Sodirî",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 16
-  },
-  {
-    "song": "BÊRÎTAN",
-    "artist": "Sîpan Xelat",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 17
-  },
-  {
-    "song": "BÊ ZEMAN Û BÊ ZIMAN",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 18
-  },
-  {
-    "song": "BÊRÎTANA MIN",
-    "artist": "Sakina",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 19
-  },
-  {
-    "song": "ŞOX Û ŞENGÊ",
-    "artist": "Xecê",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 20
-  },
-  {
-    "song": "CAN WELAT",
-    "artist": "Argeş",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 21
-  },
-  {
-    "song": "CANÊ DI BÊRÎKÊ DE",
-    "artist": "Rewşen",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 22
-  },
-  {
-    "song": "LO DILO",
-    "artist": "Reşo",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 23
-  },
-  {
-    "song": "DARHÊJÎROKÊ",
-    "artist": "Aynur Doğan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 24
-  },
-  {
-    "song": "DENGÊ DILÊ MIN",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 25
-  },
-  {
-    "song": "DESTMAL",
-    "artist": "Şivan Perwer",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 26
-  },
-  {
-    "song": "DUZGIN BAWO",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 27
-  },
-  {
-    "song": "HAYNIK NA",
-    "artist": "Koma Amed",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 28
-  },
-  {
-    "song": "DEWRANO",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 29
-  },
-  {
-    "song": "DILBERA DÊRSIMÊ",
-    "artist": "Mikail Aslan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 30
-  },
-  {
-    "song": "NO ÇI HALO?",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 31
-  },
-  {
-    "song": "DIYARBEKIR MALA MINA",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 32
-  },
-  {
-    "song": "EM ZAROKÊN AMEDÊ NE",
-    "artist": "Çetin Oraner",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 33
-  },
-  {
-    "song": "DEMÊ DEMÊ",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 34
-  },
-  {
-    "song": "EZ ŞIVAN IM",
-    "artist": "Çarnewa",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 35
-  },
-  {
-    "song": "HEY BERÎ BERÎVANÊ",
-    "artist": "Delîla",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 36
-  },
-  {
-    "song": "ŞÎLÊ",
-    "artist": "Servet Kocakaya",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 37
-  },
-  {
-    "song": "EVÎNA MIN",
-    "artist": "Agirê Jiyan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 38
-  },
-  {
-    "song": "FADÎMA",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 39
-  },
-  {
-    "song": "GULEZAR",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 40
-  },
-  {
-    "song": "HAL YAMANO",
-    "artist": "Mikail Aslan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 41
-  },
-  {
-    "song": "EVÎNA PÊŞÎ",
-    "artist": "Xero Abbas",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 42
-  },
-  {
-    "song": "HER BOSTANO",
-    "artist": "Çarnewa",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 43
-  },
-  {
-    "song": "HEY DÎLBERÊ",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 44
-  },
-  {
-    "song": "NERGIZA ZÎNÊ",
-    "artist": "Aram Tigran",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 45
-  },
-  {
-    "song": "ROJ ROJA ME YE",
-    "artist": "Koma Denge Azadî",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 46
-  },
-  {
-    "song": "JIN JIYAN AZADÎ YE",
-    "artist": "Önder Dilbirin",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 47
-  },
-  {
-    "song": "SÊ JINÊN AZAD",
-    "artist": "Delîla",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 48
-  },
-  {
-    "song": "KEÇA KURDAN IM",
-    "artist": "Şehribana Kurdî",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 49
-  },
-  {
-    "song": "GUL GULA MIN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 50
-  },
-  {
-    "song": "ZIMANE KURDÎ",
-    "artist": "Şitlen Azadi",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 51
-  },
-  {
-    "song": "PIR XWEŞ E",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 52
-  },
-  {
-    "song": "MALAN BAR KIR",
-    "artist": "Tara Jaff",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 53
-  },
-  {
-    "song": "YARA MIN A BEDEW E",
-    "artist": "Aynur Doğan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 54
-  },
-  {
-    "song": "MESO",
-    "artist": "Ahmet Aslan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 55
-  },
-  {
-    "song": "MEYMANO USARÎ",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 56
-  },
-  {
-    "song": "EZ KEVOK IM",
-    "artist": "Aynur Doğan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 57
-  },
-  {
-    "song": "NEWROZ",
-    "artist": "Kawa",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 58
-  },
-  {
-    "song": "OGİT",
-    "artist": "Bajar",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 59
-  },
-  {
-    "song": "ÊDÎ BES E",
-    "artist": "Koma Azad",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 60
-  },
-  {
-    "song": "ROJ BAŞ",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 61
-  },
-  {
-    "song": "XECÊ",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 62
-  },
-  {
-    "song": "YARA MIN BÛ",
-    "artist": "Siyabend",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 63
-  },
-  {
-    "song": "ZÎLAN",
-    "artist": "Delîla",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 64
-  },
-  {
-    "song": "ÇIMA YARÊ ÇIMA",
-    "artist": "Xero Abbas",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 65
-  },
-  {
-    "song": "ÇÛKA SERÊ DARÊ",
-    "artist": "Hozan Serhad",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 66
-  },
-  {
-    "song": "ŞÊRÎNA MIN",
-    "artist": "Hozan Siyar",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 67
-  },
-  {
-    "song": "BÊRÎTAN",
-    "artist": "Koma Amara",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 68
-  },
-  {
-    "song": "DESTANA ZAPÊ",
-    "artist": "Awazê Çiya",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 69
-  },
-  {
-    "song": "ESMERA MIN",
-    "artist": "Rojda",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 70
-  },
-  {
-    "song": "ZINGIL",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 71
-  },
-  {
-    "song": "DICEMIDIM",
-    "artist": "Hîvron",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 72
-  },
-  {
-    "song": "KULÎLKA AZADÎ",
-    "artist": "Koma Amed",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 73
-  },
-  {
-    "song": "RINDÊ",
-    "artist": "Koma Amed",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 74
-  },
-  {
-    "song": "BABLÎSOK",
-    "artist": "Hîvron",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 75
-  },
-  {
-    "song": "EVÎNDAR",
-    "artist": "Jan Axîn",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 76
-  },
-  {
-    "song": "KEÇA PERÎ",
-    "artist": "Jan Arslan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 77
-  },
-  {
-    "song": "BARANÊ",
-    "artist": "Koma Amed",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 78
-  },
-  {
-    "song": "ZÛ WERE",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 79
-  },
-  {
-    "song": "FEDÎ",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 80
-  },
-  {
-    "song": "KELEŞO",
-    "artist": "Radyoya Erîvanê",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 81
-  },
-  {
-    "song": "JAHR",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 82
-  },
-  {
-    "song": "HEVAL CUMA",
-    "artist": "Rojbin",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 83
-  },
-  {
-    "song": "ŞIYE",
-    "artist": "Mikail Aslan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 84
-  },
-  {
-    "song": "DILOP DILOP",
-    "artist": "Burhan Berken",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 85
-  },
-  {
-    "song": "NEGRÎ",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 86
-  },
-  {
-    "song": "EZ TE BAŞ NAS DIKIM",
-    "artist": "Mehmet Atlı",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 87
-  },
-  {
-    "song": "YARÊ YARÊ",
-    "artist": "Rewşen",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 88
-  },
-  {
-    "song": "BÊ TE NAÇIM",
-    "artist": "Rewşen",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 89
-  },
-  {
-    "song": "XATÛN",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 90
-  },
-  {
-    "song": "SIBA",
-    "artist": "Ciwan Haco",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 91
-  },
-  {
-    "song": "DILŞIKESTÎ",
-    "artist": "Xero Abbas",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 92
-  },
-  {
-    "song": "XEYALFIROŞ",
-    "artist": "Hakan Can",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 93
-  },
-  {
-    "song": "HÊSTIR",
-    "artist": "Hakan Can",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 94
-  },
-  {
-    "song": "EZ Û YAR",
-    "artist": "Hozan Dilgeş",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 95
-  },
-  {
-    "song": "ELEGEZ",
-    "artist": "Koma Wetan",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 96
-  },
-  {
-    "song": "YAR EMAN",
-    "artist": "Yekbun",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 97
-  },
-  {
-    "song": "KEÇIKA MAHABADİ",
-    "artist": "Mahabad",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 98
-  },
-  {
-    "song": "ASME VEJİYA",
-    "artist": "Metin Kemal Kahraman",
-    "pdf": "pdf2.pdf",
-    "volume": "PDF2",
-    "page_original": 99
-  }
-]
+{
+  "song": "AVA SÛSÊ",
+  "artist": "Koma Hemdem",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 2,
+  "key": "Cm"
+},
+{
+  "song": "ARIX",
+  "artist": "Nilüfer Akbal",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 3,
+  "key": "D"
+},
+{
+  "song": "BARANA ŞEVÊ",
+  "artist": "Xero Abbas",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 4,
+  "key": "Dm"
+},
+{
+  "song": "AX WELAT",
+  "artist": "Rojda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 5,
+  "key": "C#m"
+},
+{
+  "song": "AY LÊ GULÊ",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 6,
+  "key": "Bm"
+},
+{
+  "song": "BEYADÎ",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 7,
+  "key": "Am"
+},
+{
+  "song": "BENDA TE ME",
+  "artist": "Rotînda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 8,
+  "key": "Gm"
+},
+{
+  "song": "BERFîN",
+  "artist": "Bajar",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 9,
+  "key": "Em"
+},
+{
+  "song": "BIHIŞT",
+  "artist": "Rotînda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 10,
+  "key": "Gm"
+},
+{
+  "song": "BIRÎNDAR KIRIM",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 11,
+  "key": "Dm"
+},
+{
+  "song": "BIRÎNDAR IM",
+  "artist": "Kutup Yıldızı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 12,
+  "key": "Em"
+},
+{
+  "song": "COTKARO",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 13,
+  "key": "Bm"
+},
+{
+  "song": "ÇARÇÊLA",
+  "artist": "Rotînda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 14,
+  "key": "Gm"
+},
+{
+  "song": "ÇAVÊ MIN RONÎ",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 15,
+  "key": "G"
+},
+{
+  "song": "ÇAW BELLA",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 16,
+  "key": "Em"
+},
+{
+  "song": "ÇAW CIWANA LEYLA",
+  "artist": "Ahmed Xelîl",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 17,
+  "key": "Em"
+},
+{
+  "song": "ÇIYAYÊ ME BERFÊ",
+  "artist": "Koma Amed",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 18,
+  "key": "Gm"
+},
+{
+  "song": "ÇÛ",
+  "artist": "Hîvron",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 19,
+  "key": "Am"
+},
+{
+  "song": "DAYÊ WELAT ŞÊRÎN E",
+  "artist": "Kerem Sevinç",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 20,
+  "key": "Dm"
+},
+{
+  "song": "DE BE WAYÎRO",
+  "artist": "Ahmet Aslan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 21,
+  "key": "Bm"
+},
+{
+  "song": "ÇAVREŞ",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 22,
+  "key": "G"
+},
+{
+  "song": "DÎROK",
+  "artist": "Hogir",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 23,
+  "key": "Am"
+},
+{
+  "song": "EGÎD DÛR NEÇE",
+  "artist": "Îbrahîm Rojhilat",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 24,
+  "key": "Am"
+},
+{
+  "song": "ELQAJÎYÊ",
+  "artist": "Mikail Aslan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 25,
+  "key": "Gm"
+},
+{
+  "song": "EMAN HEYLÊ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 26,
+  "key": "Am"
+},
+{
+  "song": "NAZIKÊ",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 27,
+  "key": "Bm"
+},
+{
+  "song": "EVDO",
+  "artist": "Rojda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 28,
+  "key": "C#m"
+},
+{
+  "song": "HEVÎ Û EVÎN",
+  "artist": "Xero Abbas",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 29,
+  "key": "Gm"
+},
+{
+  "song": "EY HEVALA EVÎNDAR",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 30,
+  "key": "Dm"
+},
+{
+  "song": "EY YARAN",
+  "artist": "Tara Jaff",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 31,
+  "key": "Dm"
+},
+{
+  "song": "EZ WELAT IM",
+  "artist": "Delîl Dîlanar",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 32,
+  "key": "Am"
+},
+{
+  "song": "GELAWÊJ",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 33,
+  "key": "Em"
+},
+{
+  "song": "GELMİŞ BAHAR",
+  "artist": "Rojda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 34,
+  "key": "Bm"
+},
+{
+  "song": "GIRÊ SİRA",
+  "artist": "Burhan Berken",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 35,
+  "key": "Bm"
+},
+{
+  "song": "GULÊ NEÇE",
+  "artist": "Diyar",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 36,
+  "key": "B"
+},
+{
+  "song": "HARUNÊ MIN",
+  "artist": "Birader",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 37,
+  "key": "Bm"
+},
+{
+  "song": "HATE BER DERÎ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 38,
+  "key": "Dm"
+},
+{
+  "song": "HAVÎN Î",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 39,
+  "key": "Em"
+},
+{
+  "song": "HÊLÎN",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 40,
+  "key": "Am"
+},
+{
+  "song": "HERDU ÇAVÊ MIN",
+  "artist": "Grup Yorum",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 41,
+  "key": "Dm"
+},
+{
+  "song": "HERNE PÊŞ",
+  "artist": "Grup Yorum",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 42,
+  "key": "Em"
+},
+{
+  "song": "HERNEPEŞ KARKERNO",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 43,
+  "key": "Em"
+},
+{
+  "song": "HESTÊ ADARÊ",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 44,
+  "key": "Am"
+},
+{
+  "song": "HEVALNO",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 45,
+  "key": "Bm"
+},
+{
+  "song": "ÎRO DÎSA",
+  "artist": "Koma Amed",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 46,
+  "key": "Gm"
+},
+{
+  "song": "JIYAN",
+  "artist": "İlkay Akkaya",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 47,
+  "key": "Em"
+},
+{
+  "song": "KA WELATÊ TE",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 48,
+  "key": "Bm"
+},
+{
+  "song": "KAR XEZALÊ",
+  "artist": "Rewşen",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 49,
+  "key": "Am"
+},
+{
+  "song": "KEÇA KURDAN",
+  "artist": "Aynur Doğan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 50,
+  "key": "Dm"
+},
+{
+  "song": "KURDIYA MIN",
+  "artist": "Hakan Can",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 51,
+  "key": "Am"
+},
+{
+  "song": "LO BERDE",
+  "artist": "Umut Altınçağ",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 52,
+  "key": "Em"
+},
+{
+  "song": "LI XWE BAŞ BINÊRE",
+  "artist": "Turan Şengül",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 53,
+  "key": "Gm"
+},
+{
+  "song": "LO ŞIVANO",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 54,
+  "key": "Bm"
+},
+{
+  "song": "LOLO PISMAMO",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 55,
+  "key": "Am"
+},
+{
+  "song": "MIZGÎNA ÇELENG",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 56,
+  "key": "Em"
+},
+{
+  "song": "NAŞTA AŞTA",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 57,
+  "key": "Am"
+},
+{
+  "song": "NEWROZ E",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 58,
+  "key": "Gm"
+},
+{
+  "song": "NISÊBÎNA RENGÎN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 59,
+  "key": "Em"
+},
+{
+  "song": "OREMAR",
+  "artist": "Awazê Çiya",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 60,
+  "key": "Dm"
+},
+{
+  "song": "PAYIZ E",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 61,
+  "key": "Em"
+},
+{
+  "song": "PEJNA TE NAYÊ",
+  "artist": "Burhan Berken",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 62,
+  "key": "Dm"
+},
+{
+  "song": "PEL Û PAYÎZ",
+  "artist": "Mahabad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 63,
+  "key": "Am"
+},
+{
+  "song": "PUKELEKA",
+  "artist": "Grup Munzur",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 64,
+  "key": "Em"
+},
+{
+  "song": "QÊRÎN",
+  "artist": "Rotînda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 65,
+  "key": "Gm"
+},
+{
+  "song": "REHŞAN",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 66,
+  "key": "Bm"
+},
+{
+  "song": "REVOKO",
+  "artist": "Koma Rewşen",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 67,
+  "key": "Em"
+},
+{
+  "song": "REWEND",
+  "artist": "Aynur Doğan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 68,
+  "key": "Dm"
+},
+{
+  "song": "SARYA",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 69,
+  "key": "Am"
+},
+{
+  "song": "SERHILDAN JIYAN E",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 70,
+  "key": "Em"
+},
+{
+  "song": "ŞIKRAYE",
+  "artist": "Mihemed Şexo",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 71,
+  "key": "Am"
+},
+{
+  "song": "TE EZ KAL KIRIM",
+  "artist": "Aram Tigran",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 72,
+  "key": "Dm"
+},
+{
+  "song": "TEWT",
+  "artist": "Mikail Aslan",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 73,
+  "key": "C#m"
+},
+{
+  "song": "TU BÛY DENGÊ ÎSA",
+  "artist": "Koma Denge Azadî",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 74,
+  "key": "Gm"
+},
+{
+  "song": "TU CIWAN Î",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 75,
+  "key": "Em"
+},
+{
+  "song": "TU GULÎ",
+  "artist": "Koma Mizgin",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 76,
+  "key": "Am"
+},
+{
+  "song": "TU WER E",
+  "artist": "Rotînda",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 77,
+  "key": "Gm"
+},
+{
+  "song": "TU YÎ BIHIŞTA MIN",
+  "artist": "Koma Azad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 78,
+  "key": "Dm"
+},
+{
+  "song": "VENAGERE",
+  "artist": "Türkan Akay",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 79,
+  "key": "Em"
+},
+{
+  "song": "WELAT PERESTİ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 80,
+  "key": "C"
+},
+{
+  "song": "WELATÊ MIN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 81,
+  "key": "Dm"
+},
+{
+  "song": "WENDA",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 82,
+  "key": "Em"
+},
+{
+  "song": "VENSEREMOS",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 83,
+  "key": "D"
+},
+{
+  "song": "XEMILÎ ZOZAN",
+  "artist": "Aram Tigran",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 84,
+  "key": "Em"
+},
+{
+  "song": "XERÎB IM",
+  "artist": "Koma Azad",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 85,
+  "key": "Am"
+},
+{
+  "song": "XERÎBIYÊ",
+  "artist": "Rewşen",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 86,
+  "key": "D"
+},
+{
+  "song": "YADÊ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 87,
+  "key": "C"
+},
+{
+  "song": "YÊRÎVAN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 88,
+  "key": "Am"
+},
+{
+  "song": "ZAGROS",
+  "artist": "Rewşen",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 89,
+  "key": "C"
+},
+{
+  "song": "ZEKÎYE",
+  "artist": "Berfina Besta",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 90,
+  "key": "Em"
+},
+{
+  "song": "ZEMANO",
+  "artist": "Xero Abbas",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 91,
+  "key": "Am"
+},
+{
+  "song": "ZEVIYÊN EDABÊ",
+  "artist": "Koma Rewşen",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 92,
+  "key": "Bm"
+},
+{
+  "song": "ZOZAN",
+  "artist": "Ahmed Xelîl",
+  "pdf": "pdf1.pdf",
+  "volume": "PDF1",
+  "page_original": 93,
+  "key": "Bm"
+},
+{
+  "song": "AX LÊ GIDYE",
+  "artist": "Rojda",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 2,
+  "key": "Am"
+},
+{
+  "song": "AZADE",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 3,
+  "key": "A"
+},
+{
+  "song": "BEHR",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 4,
+  "key": "Em"
+},
+{
+  "song": "BÊRÎVANÊ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 5,
+  "key": "Am"
+},
+{
+  "song": "CANÊ CANÊ",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 6,
+  "key": "Dm"
+},
+{
+  "song": "AMEDIYÊ",
+  "artist": "Koma Amed",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 7,
+  "key": "Gm"
+},
+{
+  "song": "AMEDÊ",
+  "artist": "Bülent Turan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 8,
+  "key": "Em"
+},
+{
+  "song": "DIYARBEKIR",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 9,
+  "key": "Em"
+},
+{
+  "song": "GULFIROŞ",
+  "artist": "Burhan Berken",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 10,
+  "key": "Gm"
+},
+{
+  "song": "DÊRA SORÊ",
+  "artist": "Rojhan Beken",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 11,
+  "key": "Dm"
+},
+{
+  "song": "ADARÊ",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 12,
+  "key": "Am"
+},
+{
+  "song": "AX LÊ KINÊ",
+  "artist": "Koma Denge Azadî",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 13,
+  "key": "Gm"
+},
+{
+  "song": "AY DÎLBERÊ",
+  "artist": "Aram Tigran",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 14,
+  "key": "Dm"
+},
+{
+  "song": "AX Û AMAN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 15,
+  "key": "Em"
+},
+{
+  "song": "AY LO DILO",
+  "artist": "Koma Venge Sodirî",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 16,
+  "key": "Am"
+},
+{
+  "song": "BÊRÎTAN",
+  "artist": "Sîpan Xelat",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 17,
+  "key": "Gm"
+},
+{
+  "song": "BÊ ZEMAN Û BÊ ZIMAN",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 18,
+  "key": "Em"
+},
+{
+  "song": "BÊRÎTANA MIN",
+  "artist": "Sakina",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 19,
+  "key": "Dm"
+},
+{
+  "song": "ŞOX Û ŞENGÊ",
+  "artist": "Xecê",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 20,
+  "key": "Am"
+},
+{
+  "song": "CAN WELAT",
+  "artist": "Argeş",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 21,
+  "key": "Gm"
+},
+{
+  "song": "CANÊ DI BÊRÎKÊ DE",
+  "artist": "Rewşen",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 22,
+  "key": "Dm"
+},
+{
+  "song": "LO DILO",
+  "artist": "Reşo",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 23,
+  "key": "Am"
+},
+{
+  "song": "DARHÊJÎROKÊ",
+  "artist": "Aynur Doğan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 24,
+  "key": "Em"
+},
+{
+  "song": "DENGÊ DILÊ MIN",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 25,
+  "key": "Em"
+},
+{
+  "song": "DESTMAL",
+  "artist": "Şivan Perwer",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 26,
+  "key": "Dm"
+},
+{
+  "song": "DUZGIN BAWO",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 27,
+  "key": "Am"
+},
+{
+  "song": "HAYNIK NA",
+  "artist": "Koma Amed",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 28,
+  "key": "Gm"
+},
+{
+  "song": "DEWRANO",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 29,
+  "key": "Em"
+},
+{
+  "song": "DILBERA DÊRSIMÊ",
+  "artist": "Mikail Aslan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 30,
+  "key": "Dm"
+},
+{
+  "song": "NO ÇI HALO?",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 31,
+  "key": "Am"
+},
+{
+  "song": "DIYARBEKIR MALA MINA",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 32,
+  "key": "Em"
+},
+{
+  "song": "EM ZAROKÊN AMEDÊ NE",
+  "artist": "Çetin Oraner",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 33,
+  "key": "Gm"
+},
+{
+  "song": "DEMÊ DEMÊ",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 34,
+  "key": "Am"
+},
+{
+  "song": "EZ ŞIVAN IM",
+  "artist": "Çarnewa",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 35,
+  "key": "Em"
+},
+{
+  "song": "HEY BERÎ BERÎVANÊ",
+  "artist": "Delîla",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 36,
+  "key": "Dm"
+},
+{
+  "song": "ŞÎLÊ",
+  "artist": "Servet Kocakaya",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 37,
+  "key": "Em"
+},
+{
+  "song": "EVÎNA MIN",
+  "artist": "Agirê Jiyan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 38,
+  "key": "Am"
+},
+{
+  "song": "FADÎMA",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 39,
+  "key": "Dm"
+},
+{
+  "song": "GULEZAR",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 40,
+  "key": "Em"
+},
+{
+  "song": "HAL YAMANO",
+  "artist": "Mikail Aslan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 41,
+  "key": "Am"
+},
+{
+  "song": "EVÎNA PÊŞÎ",
+  "artist": "Xero Abbas",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 42,
+  "key": "Em"
+},
+{
+  "song": "HER BOSTANO",
+  "artist": "Çarnewa",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 43,
+  "key": "Am"
+},
+{
+  "song": "HEY DÎLBERÊ",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 44,
+  "key": "Dm"
+},
+{
+  "song": "NERGIZA ZÎNÊ",
+  "artist": "Aram Tigran",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 45,
+  "key": "Em"
+},
+{
+  "song": "ROJ ROJA ME YE",
+  "artist": "Koma Denge Azadî",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 46,
+  "key": "Gm"
+},
+{
+  "song": "JIN JIYAN AZADÎ YE",
+  "artist": "Önder Dilbirin",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 47,
+  "key": "Am"
+},
+{
+  "song": "SÊ JINÊN AZAD",
+  "artist": "Delîla",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 48,
+  "key": "Dm"
+},
+{
+  "song": "KEÇA KURDAN IM",
+  "artist": "Şehribana Kurdî",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 49,
+  "key": "Gm"
+},
+{
+  "song": "GUL GULA MIN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 50,
+  "key": "Em"
+},
+{
+  "song": "ZIMANE KURDÎ",
+  "artist": "Şitlen Azadi",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 51,
+  "key": "Am"
+},
+{
+  "song": "PIR XWEŞ E",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 52,
+  "key": "Em"
+},
+{
+  "song": "MALAN BAR KIR",
+  "artist": "Tara Jaff",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 53,
+  "key": "Dm"
+},
+{
+  "song": "YARA MIN A BEDEW E",
+  "artist": "Aynur Doğan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 54,
+  "key": "Em"
+},
+{
+  "song": "MESO",
+  "artist": "Ahmet Aslan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 55,
+  "key": "Am"
+},
+{
+  "song": "MEYMANO USARÎ",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 56,
+  "key": "Dm"
+},
+{
+  "song": "EZ KEVOK IM",
+  "artist": "Aynur Doğan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 57,
+  "key": "Em"
+},
+{
+  "song": "NEWROZ",
+  "artist": "Kawa",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 58,
+  "key": "Gm"
+},
+{
+  "song": "OGİT",
+  "artist": "Bajar",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 59,
+  "key": "Em"
+},
+{
+  "song": "ÊDÎ BES E",
+  "artist": "Koma Azad",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 60,
+  "key": "Am"
+},
+{
+  "song": "ROJ BAŞ",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 61,
+  "key": "Gm"
+},
+{
+  "song": "XECÊ",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 62,
+  "key": "Dm"
+},
+{
+  "song": "YARA MIN BÛ",
+  "artist": "Siyabend",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 63,
+  "key": "Am"
+},
+{
+  "song": "ZÎLAN",
+  "artist": "Delîla",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 64,
+  "key": "Gm"
+},
+{
+  "song": "ÇIMA YARÊ ÇIMA",
+  "artist": "Xero Abbas",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 65,
+  "key": "Em"
+},
+{
+  "song": "ÇÛKA SERÊ DARÊ",
+  "artist": "Hozan Serhad",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 66,
+  "key": "Am"
+},
+{
+  "song": "ŞÊRÎNA MIN",
+  "artist": "Hozan Siyar",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 67,
+  "key": "Dm"
+},
+{
+  "song": "BÊRÎTAN",
+  "artist": "Koma Amara",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 68,
+  "key": "Gm"
+},
+{
+  "song": "DESTANA ZAPÊ",
+  "artist": "Awazê Çiya",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 69,
+  "key": "Em"
+},
+{
+  "song": "ESMERA MIN",
+  "artist": "Rojda",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 70,
+  "key": "Am"
+},
+{
+  "song": "ZINGIL",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 71,
+  "key": "Em"
+},
+{
+  "song": "DICEMIDIM",
+  "artist": "Hîvron",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 72,
+  "key": "Dm"
+},
+{
+  "song": "KULÎLKA AZADÎ",
+  "artist": "Koma Amed",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 73,
+  "key": "Gm"
+},
+{
+  "song": "RINDÊ",
+  "artist": "Koma Amed",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 74,
+  "key": "Em"
+},
+{
+  "song": "BABLÎSOK",
+  "artist": "Hîvron",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 75,
+  "key": "Am"
+},
+{
+  "song": "EVÎNDAR",
+  "artist": "Jan Axîn",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 76,
+  "key": "Dm"
+},
+{
+  "song": "KEÇA PERÎ",
+  "artist": "Jan Arslan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 77,
+  "key": "Gm"
+},
+{
+  "song": "BARANÊ",
+  "artist": "Koma Amed",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 78,
+  "key": "Em"
+},
+{
+  "song": "ZÛ WERE",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 79,
+  "key": "Am"
+},
+{
+  "song": "FEDÎ",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 80,
+  "key": "Dm"
+}
+{
+  "song": "KELEŞO",
+  "artist": "Radyoya Erîvanê",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 81,
+  "key": "Em"
+},
+{
+  "song": "JAHR",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 82,
+  "key": "Am"
+},
+{
+  "song": "HEVAL CUMA",
+  "artist": "Rojbin",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 83,
+  "key": "Dm"
+},
+{
+  "song": "ŞIYE",
+  "artist": "Mikail Aslan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 84,
+  "key": "Em"
+},
+{
+  "song": "DILOP DILOP",
+  "artist": "Burhan Berken",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 85,
+  "key": "Am"
+},
+{
+  "song": "NEGRÎ",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 86,
+  "key": "Gm"
+},
+{
+  "song": "EZ TE BAŞ NAS DIKIM",
+  "artist": "Mehmet Atlı",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 87,
+  "key": "Em"
+},
+{
+  "song": "YARÊ YARÊ",
+  "artist": "Rewşen",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 88,
+  "key": "Dm"
+},
+{
+  "song": "BÊ TE NAÇIM",
+  "artist": "Rewşen",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 89,
+  "key": "Am"
+},
+{
+  "song": "XATÛN",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 90,
+  "key": "Em"
+},
+{
+  "song": "SIBA",
+  "artist": "Ciwan Haco",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 91,
+  "key": "Am"
+},
+{
+  "song": "DILŞIKESTÎ",
+  "artist": "Xero Abbas",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 92,
+  "key": "Dm"
+},
+{
+  "song": "XEYALFIROŞ",
+  "artist": "Hakan Can",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 93,
+  "key": "Em"
+},
+{
+  "song": "HÊSTIR",
+  "artist": "Hakan Can",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 94,
+  "key": "Am"
+},
+{
+  "song": "EZ Û YAR",
+  "artist": "Hozan Dilgeş",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 95,
+  "key": "Dm"
+},
+{
+  "song": "ELEGEZ",
+  "artist": "Koma Wetan",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 96,
+  "key": "Gm"
+},
+{
+  "song": "YAR EMAN",
+  "artist": "Yekbun",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 97,
+  "key": "Em"
+},
+{
+  "song": "KEÇIKA MAHABADİ",
+  "artist": "Mahabad",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 98,
+  "key": "Am"
+},
+{
+  "song": "ASME VEJİYA",
+  "artist": "Metin Kemal Kahraman",
+  "pdf": "pdf2.pdf",
+  "volume": "PDF2",
+  "page_original": 99,
+  "key": "Dm"
+}
