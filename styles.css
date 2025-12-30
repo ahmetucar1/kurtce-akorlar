@@ -735,6 +735,6 @@ body::after{
 
 @media (max-width: 360px){
   .brand__title::after{
-    font-size: 18px;
+    font-size: 10px;
   }
 }
