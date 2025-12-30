@@ -59,13 +59,12 @@ img{ max-width:100%; display:block; }
   position: sticky;
   top:0;
   z-index:50;
-  background: color-mix(in srgb, var(--glass) 80%, transparent);
+
   border-bottom:1px solid var(--line);
   backdrop-filter: blur(14px);
 }
 
 .topbar__inner{
-  padding: 12px 0;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -96,7 +95,7 @@ img{ max-width:100%; display:block; }
 .brand__title{
   font-weight: 750;
   letter-spacing: -.02em;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 1.1;
 }
 .brand__sub{
@@ -554,7 +553,7 @@ body{
 
 
 .brand__title{
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 850;
   letter-spacing: -0.04em;
   line-height: 1;
