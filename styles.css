@@ -832,3 +832,70 @@ body::after,
     padding-bottom: 10px;
   }
 }
+
+/* === MOBILE HEADER FIX (no overlap) === */
+@media (max-width: 640px){
+
+  /* Header tek satır: sol (brand) + sağ (aksiyonlar) */
+  .topbar__inner{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:10px !important;
+    flex-wrap:nowrap !important; /* kritik: overlap yerine tek satır */
+    padding: 10px 0 !important;
+  }
+
+  /* Sol: logo + başlık */
+  .brand{
+    display:flex !important;
+    align-items:center !important;
+    gap:10px !important;
+    min-width:0 !important;       /* taşmayı yönet */
+    flex: 1 1 auto !important;
+  }
+
+  .logo{
+    width: 78px !important;
+    height: 78px !important;
+    flex: 0 0 auto !important;    /* küçülmesin */
+  }
+  .logo img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+  }
+
+  /* Başlık taşarsa kırp (üst üste binmesin) */
+  .brand__title{
+    font-size: 22px !important;
+    line-height: 1.05 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  .brand__sub{ display:none !important; } /* mobilde alan kazandırır */
+
+  /* Sağ: butonlar */
+  .topbar__actions,
+  .topbar__right{
+    display:flex !important;
+    align-items:center !important;
+    gap:6px !important;
+    flex-wrap:nowrap !important;
+    flex: 0 0 auto !important;
+  }
+
+  /* Butonları küçült (üst üste binmesin) */
+  .topbar__actions .btn,
+  .topbar__actions a{
+    padding: 7px 10px !important;
+    border-radius: 999px !important;
+    font-size: 13px !important;
+  }
+
+  /* Tema butonu sabit */
+  #themeToggle{
+    padding: 7px 10px !important;
+  }
+}
