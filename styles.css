@@ -375,6 +375,7 @@ main.container{ padding: 14px 0 70px; }
   background: var(--panel);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
+  margin-top: 60px;
 }
 
 /* ---- Wider screens ---- */
