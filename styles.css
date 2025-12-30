@@ -146,7 +146,7 @@ main.container{ padding: 16px 0 76px; }
 }
 @media (max-width: 390px){
   .logo{ width: 84px; height: 84px; flex-basis: 84px; }
-  .brand__title{ font-size: 15px; max-width: calc(100vw - 210px); }
+  .brand__title{ font-size: 13px; max-width: calc(100vw - 210px); }
 }
 
 /* =========================
