@@ -420,7 +420,7 @@ main.container{ padding: 14px 0 70px; }
     --topbar-h: 92px;
     --logo-box: 92px;
   }
-  .brand__title{ max-width: calc(100vw - 120px); }
+  .brand__title{ max-width: calc(50vw - 120px); }
 }
 
 /* LIVE_BG_START */
@@ -536,7 +536,7 @@ body > .topbar{
 
 /* Mobilde taşmasın */
 
-  .brand__title{ font-size: 30px; }
+  .brand__title{ font-size: 10px; }
 
 
 /* ---- Background layers ---- */
