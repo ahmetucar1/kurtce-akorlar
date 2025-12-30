@@ -904,9 +904,10 @@ body::after{
    =============================== */
 @media (max-width: 640px){
   .brand__title{
-    font-size: 12px !important;
+    font-size: 20px !important;
     line-height: 1.1 !important;
     letter-spacing: -0.02em !important;
+    margin-right: 20px;
   }
 }
 
