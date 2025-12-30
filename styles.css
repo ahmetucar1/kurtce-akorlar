@@ -733,7 +733,7 @@ body::after{
   }
 }
 
-@media (max-width: 360px){
+@media (max-width: 160px){
   .brand__title::after{
     font-size: 10px;
   }
