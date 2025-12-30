@@ -732,3 +732,21 @@ body::after{
       0 1px 4px rgba(0,0,0,.2);
   }
 }
+
+/* ===============================
+   MOBILE BRAND TITLE OVERRIDE
+   =============================== */
+
+@media (max-width: 640px){
+  .brand__title{
+    font-size: 0;          /* asıl yazıyı gizle */
+  }
+
+  .brand__title::after{
+    content: "Küçükpark";
+    font-size: 20px;       /* mobilde görünecek boyut */
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+  }
+}
