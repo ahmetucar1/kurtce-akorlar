@@ -1,147 +1,143 @@
-/* Kürtçe Akorlar — Mobile-first UI (no functional changes) */
+/* =========================================
+   Repertûara Kurdî — UI Styles (clean)
+   Arka plan katmanı: LIVE_BG_START/END bloğu korunur.
+   ========================================= */
 
-/* ---- Tokens ---- */
+/* ---------- Theme tokens ---------- */
 :root{
-  /* Light default (koyu gradient yok) */
+  --bg:#0b0d12;
+  --panel:rgba(12,16,26,.72);
+  --card:rgba(255,255,255,.06);
+
+  --text:#eef2ff;
+  --muted:#a2abb8;
+  --line:rgba(255,255,255,.12);
+
+  --shadow:0 18px 50px rgba(0,0,0,.35);
+  --radius:18px;
+
+  --btn:rgba(255,255,255,.08);
+  --btnHover:rgba(255,255,255,.12);
+
+  --accent:#7c3aed;
+  --accent2:#22c55e;
+
+  --glass:rgba(14,18,30,.55);
+
+  /* HEADER sizing (logo barı büyütmesin) */
+  --topbar-h: 88px;     /* bar yüksekliği */
+  --logo-box: 88px;     /* logo kutusu genişliği */
+}
+
+[data-theme="light"]{
   --bg:#f6f4ef;
   --panel:rgba(255,255,255,.94);
   --card:rgba(255,255,255,.90);
+
   --text:#121521;
   --muted:#4b5563;
   --line:rgba(18,21,33,.12);
+
   --shadow:0 18px 50px rgba(0,0,0,.12);
-  --radius:18px;
 
   --btn:rgba(255,255,255,.70);
-  --btnHover:rgba(255,255,255,.90);
+  --btnHover:rgba(255,255,255,.92);
 
-  /* Warm + teal accents */
   --accent:#c97b20;
   --accent2:#1e8a6c;
 
   --glass:rgba(255,255,255,.68);
 }
 
-[data-theme="dark"]{
-  --bg:#0b0d12;
-  --panel:rgba(12,16,26,.72);
-  --card:rgba(255,255,255,.05);
-  --text:#eef2ff;
-  --muted:#a2abb8;
-  --line:rgba(255,255,255,.12);
-  --shadow:0 18px 50px rgba(0,0,0,.35);
-
-  --btn:rgba(255,255,255,.06);
-  --btnHover:rgba(255,255,255,.10);
-
-  --accent:#7c3aed;
-  --accent2:#22c55e;
-  --glass:rgba(14,18,30,.55);
-}
-
-
-
-
-[data-theme="dark"] body{
-  background: radial-gradient(1200px 800px at 50% -200px, rgba(124,58,237,.28), transparent 55%),
-              radial-gradient(900px 600px at 10% 10%, rgba(34,197,94,.14), transparent 50%),
-              var(--bg);
-}
-/* ---- Base ---- */
+/* ---------- Base ---------- */
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-    background: radial-gradient(1100px 720px at 18% -10%, rgba(201,123,32,.28), transparent 55%),
-              radial-gradient(900px 700px at 88% 18%, rgba(30,138,108,.16), transparent 60%),
-              linear-gradient(180deg, #fffaf0, var(--bg));
   color:var(--text);
+  background: var(--bg);
   line-height:1.5;
+  overflow-x:hidden;
 }
 
-a{ color:inherit; }
+a{ color:inherit; text-decoration:none; }
 img{ max-width:100%; display:block; }
-.muted{ color: #dedede; }
+.muted{ color:var(--muted); }
 
 .container{
   width: min(1100px, calc(100% - 32px));
   margin: 0 auto;
 }
 
-/* ---- Topbar ---- */
+main.container{ padding: 14px 0 70px; }
+
+/* ---------- Topbar (single row, fixed height) ---------- */
 .topbar{
   position: sticky;
   top:0;
   z-index:50;
-  background: color-mix(in srgb, var(--glass) 80%, transparent);
-  border-bottom:1px solid var(--line);
+  background: color-mix(in srgb, var(--glass) 82%, transparent);
+  border-bottom: 1px solid var(--line);
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .topbar__inner{
-  padding: 12px 0;
+  height: var(--topbar-h);          /* bar büyümez */
+  padding: 0 !important;           /* padding barı şişirmesin */
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:12px;
-  flex-wrap:wrap; /* mobile */
+  flex-wrap:nowrap;                 /* TEK SATIR */
 }
 
+/* Brand block */
 .brand{
   display:flex;
   align-items:center;
-  gap:10px;
-  text-decoration:none;
-  min-width: 140px;
+  gap:14px;
+  min-width:0;
+  flex:1 1 auto;
 }
 
-.logo{
-  width:40px;
-  height:40px;
-  display:grid;
-  place-items:center;
-  border-radius:14px;
-  background: var(--card);
-  border:1px solid var(--line);
-  overflow:hidden;
+/* LOGO: img kendi kutusu kadar olsun */
+.site-logo{
+  width: var(--logo-box);
+  height: 100%;
+  flex: 0 0 var(--logo-box);
+  object-fit: contain;              /* kesmeden sığdır */
+  filter: drop-shadow(0 10px 22px rgba(0,0,0,.28));
 }
-.logo img{ width:100%; height:100%; object-fit:cover; }
 
+/* Title */
 .brand__title{
-  font-weight: 750;
-  letter-spacing: -.02em;
-  font-size: 18px;
-  line-height: 1.1;
-}
-.brand__sub{
-  font-size: 13px;
-  color: var(--muted);
-  margin-top: 2px;
+  font-weight: 900;
+  letter-spacing: -.05em;
+  line-height: 1.05;
+  font-size: 38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width:0;
 }
 
+/* Eğer title div içinde gelirse (bazı sayfalarda) */
+.brand > div{ min-width:0; }
+.brand > div .brand__title{ display:block; }
+
+/* Sağ taraf butonlar */
 .topbar__actions,
 .topbar__right{
   display:flex;
   align-items:center;
   gap:10px;
-  flex-wrap:wrap; /* critical for small screens */
-  justify-content:flex-end;
+  flex-wrap:nowrap;                 /* TEK SATIR */
+  flex:0 0 auto;
 }
 
-.topbar__actions--spread{
-  width:100%;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
-.topbar__left{ flex: 1 1 auto; min-width: 180px; }
-.topbar__right{ flex: 2 1 280px; }
-
-/* ---- Buttons ---- */
+/* ---------- Buttons ---------- */
 .btn{
   appearance:none;
   border:1px solid var(--line);
@@ -150,26 +146,22 @@ img{ max-width:100%; display:block; }
   padding:10px 12px;
   border-radius: 14px;
   cursor:pointer;
-  text-decoration:none;
   display:inline-flex;
   align-items:center;
   justify-content:center;
   gap:8px;
-  font-weight:600;
+  font-weight:800;
   font-size:14px;
   line-height:1;
-  transition: transform .08s ease, background .15s ease, border-color .15s ease;
   white-space: nowrap;
+  transition: transform .08s ease, background .15s ease, border-color .15s ease;
 }
 .btn:hover{ background: var(--btnHover); }
 .btn:active{ transform: translateY(1px); }
 .btn--ghost{ background: transparent; }
 .btn--lg{ padding: 10px 14px; border-radius: 16px; }
 
-/* ---- Page spacing ---- */
-main.container{ padding: 14px 0 70px; }
-
-/* ---- Home header ---- */
+/* ---------- Home header ---------- */
 .homeTop{
   text-align:center;
   max-width: 760px;
@@ -182,7 +174,7 @@ main.container{ padding: 14px 0 70px; }
 }
 .homeTop p{ margin:0; }
 
-/* ---- Search ---- */
+/* ---------- Search ---------- */
 .search{
   margin-top: 14px;
   display:flex;
@@ -205,7 +197,7 @@ main.container{ padding: 14px 0 70px; }
   font-size: 15px;
 }
 
-/* ---- Results header ---- */
+/* ---------- Results header ---------- */
 .resultsHeader{
   display:flex;
   align-items:center;
@@ -215,12 +207,13 @@ main.container{ padding: 14px 0 70px; }
 }
 .resultsHeader__title{
   font-size: 18px;
-  font-weight: 750;
+  font-weight: 900;
   letter-spacing: -.02em;
 }
 
-/* ---- List cards ---- */
+/* ---------- List cards ---------- */
 .list{ display:grid; gap:10px; margin-top: 10px; }
+
 .item{
   display:flex;
   align-items:center;
@@ -234,7 +227,7 @@ main.container{ padding: 14px 0 70px; }
 }
 .item__left{ min-width: 0; }
 .item__title{
-  font-weight: 750;
+  font-weight: 900;
   letter-spacing: -.02em;
   font-size: 16px;
 }
@@ -247,16 +240,14 @@ main.container{ padding: 14px 0 70px; }
   white-space: nowrap;
 }
 
-/* Sanatçı linkleri (kart altı) */
 .artistLink{
   color: inherit;
-  text-decoration: none;
   border-bottom: 1px solid transparent;
 }
-.artistLink:hover{
-  border-bottom-color: currentColor;
-}
+.artistLink:hover{ border-bottom-color: currentColor; }
+
 .badges{ display:flex; gap:8px; flex-wrap:wrap; }
+
 .open{
   display:inline-flex;
   align-items:center;
@@ -265,8 +256,7 @@ main.container{ padding: 14px 0 70px; }
   border-radius: 14px;
   border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--line));
   background: color-mix(in srgb, var(--accent) 18%, var(--btn));
-  text-decoration:none;
-  font-weight: 700;
+  font-weight: 900;
 }
 .open:hover{
   background: color-mix(in srgb, var(--accent) 24%, var(--btnHover));
@@ -281,11 +271,11 @@ main.container{ padding: 14px 0 70px; }
   text-align:center;
 }
 
-/* ---- Home grid cards ---- */
+/* ---------- Home grid cards ---------- */
 .homeGrid{
   margin-top: 18px;
   display:grid;
-  grid-template-columns: 1fr; /* mobile-first */
+  grid-template-columns: 1fr;
   gap: 12px;
   align-items:start;
 }
@@ -298,8 +288,14 @@ main.container{ padding: 14px 0 70px; }
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
 }
-.visualCard__top{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
-.visualCard__title{ font-weight: 800; letter-spacing:-.02em; }
+.visualCard__top{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:10px;
+}
+.visualCard__title{ font-weight: 950; letter-spacing:-.02em; }
+
 .visualCard--photo{
   padding:0;
   min-height: 200px;
@@ -311,7 +307,7 @@ main.container{ padding: 14px 0 70px; }
 .visualCard--photo::before{
   content:"";
   position:absolute; inset:0;
-  background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.06));
+  background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.08));
 }
 [data-theme="light"] .visualCard--photo::before{
   background: linear-gradient(to top, rgba(255,255,255,.72), rgba(255,255,255,.14));
@@ -321,7 +317,7 @@ main.container{ padding: 14px 0 70px; }
   left:14px; right:14px; bottom:14px;
   padding: 12px 12px;
 }
-.visualCard__overlayTitle{ font-weight:800; }
+.visualCard__overlayTitle{ font-weight:950; }
 
 /* Stats */
 .stats{
@@ -337,20 +333,19 @@ main.container{ padding: 14px 0 70px; }
   border: 1px solid var(--line);
   text-align:center;
 }
-.stat__n{ font-size: 20px; font-weight: 900; letter-spacing:-.02em; }
-.stat__t{ font-size: 12px; }
+.stat__n{ font-size: 20px; font-weight: 950; letter-spacing:-.02em; }
+.stat__t{ font-size: 12px; color:var(--muted); }
 
-/* ---- Song page ---- */
+/* ---------- Song page ---------- */
 .songPage{
   display:grid;
-  grid-template-columns: 1fr; /* mobile-first */
+  grid-template-columns: 1fr;
   gap: 12px;
   align-items:start;
 }
-
 .songWrap{ max-width: 920px; margin: 0 auto; }
 #songName{ text-align:center; font-size: 22px; margin-top: 4px; }
-#songArtist{ text-align:center; }
+#songArtist{ text-align:center; color: var(--muted); }
 
 .imgWrap{
   margin-top: 12px;
@@ -358,31 +353,11 @@ main.container{ padding: 14px 0 70px; }
   overflow:hidden;
   border: 1px solid var(--line);
   background: var(--card);
+  background-color: #eef2ff;
   box-shadow: var(--shadow);
 }
-#img{
-  width:100%;
-  height:auto;
-  display:block;
-  transform-origin: top center;
-}
+#img{ width:100%; height:auto; display:block; transform-origin: top center; }
 
-.zoomBar{
-  margin-top: 10px;
-  display:flex;
-  gap:10px;
-  align-items:center;
-  justify-content:center;
-  flex-wrap:wrap;
-}
-.zoomLevel{
-  font-size: 13px;
-  color: var(--muted);
-  min-width: 64px;
-  text-align:center;
-}
-
-/* Aside (if present) */
 .songAside{
   width: 100%;
   padding: 14px;
@@ -390,130 +365,7 @@ main.container{ padding: 14px 0 70px; }
   background: var(--panel);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
-  margin-top: 60px;
-}
-
-/* ---- Wider screens ---- */
-@media (min-width: 820px){
-  .homeTop h1{ font-size: 38px; }
-  .homeGrid{ grid-template-columns: 1.15fr .85fr; gap: 14px; margin-top: 28px; }
-  .songPage{ grid-template-columns: 1.2fr .8fr; gap: 14px; }
-  .topbar__inner{ flex-wrap:nowrap; }
-}
-
-/* ---- Small screens: extra safety ---- */
-@media (max-width: 380px){
-  .btn{ padding: 9px 10px; font-size: 13px; }
-  .brand__title{ font-size: 17px; }
-  .topbar__left{ min-width: 0; }
-  .topbar__right{ flex-basis: 220px; }
-}
-
-/* ---- Utilities used by existing markup ---- */
-.brand__title--soft{ font-weight: 780; }
-
-.footer {
-  margin-top:5px;
-}
-
-
-/* --- Mobile topbar fix --- */
-
-
-  /* sağ üst: tema butonu; alt satır: tüm şarkılar tek geniş buton */
-  .topbar__actions{
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 10px;
-  }
-
-  /* tema butonu sağ üstte kalsın */
-  #themeToggle{
-    order: 1;
-  }
-
-  /* Tüm Şarkılar mobilde tam genişlik, aşağı satır */
-  .topbar__actions a[href$="all.html"]{
-    order: 2;
-    flex: 1 0 100%;
-    text-align: center;
-    padding: 12px 14px;
-    border-radius: 16px;
-  }
-
-  /* başlık çok büyüyse biraz küçült, tek satırda daha rahat dursun */
-  .brand__title{
-    font-size: 24px;
-  }
-}
-
-
-/* ===== Mobile: header tek satır ===== */
-
-
-  /* sol taraf: logo + başlık */
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-width: 0;
-  }
-
-  .brand__title {
-    font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  /* sağ taraf: butonlar */
-  .topbar__actions {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: nowrap;
-  }
-
-  /* tema butonu */
-  #themeToggle {
-    padding: 6px 8px;
-    border-radius: 999px;
-    font-size: 14px;
-  }
-
-  /* Tümü butonu (küçültülmüş hali) */
-  .topbar__actions a {
-    padding: 6px 10px;
-    font-size: 13px;
-    border-radius: 999px;
-    white-space: nowrap;
-  }
-}
-:root{
-  --bg0:#070A10;
-  --bg1:#0B1220;
-  --bg2:#0F1B2D;
-}
-
-body{
-    background: radial-gradient(1100px 720px at 18% -10%, rgba(201,123,32,.28), transparent 55%),
-              radial-gradient(900px 700px at 88% 18%, rgba(30,138,108,.16), transparent 60%),
-              linear-gradient(180deg, #fffaf0, var(--bg));
-  background-attachment: fixed;
-}
-
-/* Mobilde şarkı sayfasındaki zoom butonlarını gizle */
-
-
-  /* sağ tarafta boşluk kalmasın */
-  .topbar__right{
-    gap: 6px;
-  }
-
-  /* tema butonu sağda kalsın */
-  #themeToggle{
-    margin-left: auto;
-  }
+  margin-top: 12px;
 }
 
 .youtubeCard{
@@ -524,13 +376,51 @@ body{
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
 }
-
 .youtubeWrap{
   margin-top: 10px;
   border-radius: 14px;
   overflow: hidden;
   border: 1px solid var(--line);
   background: #000;
+}
+
+/* ---------- Footer ---------- */
+.footer{ margin-top: 10px; padding-top: 10px; }
+.footerRow{ display:flex; justify-content:space-between; align-items:center; gap:10px; }
+
+/* ---------- Wider screens ---------- */
+@media (min-width: 820px){
+  .homeTop h1{ font-size: 38px; }
+  .homeGrid{ grid-template-columns: 1.15fr .85fr; gap: 14px; margin-top: 28px; }
+  .songPage{ grid-template-columns: 1.2fr .8fr; gap: 14px; }
+}
+
+/* ---------- Mobile: tek satır + logo maksimum ---------- */
+@media (max-width: 640px){
+  :root{
+    --topbar-h: 96px;
+    --logo-box: 96px;
+  }
+
+  .brand__title{
+    font-size: 20px;
+    /* logo + butonlar için güvenli alan */
+    max-width: calc(100vw - 240px);
+  }
+
+  .topbar__actions .btn{
+    padding:6px 10px;
+    font-size:13px;
+    border-radius:999px;
+  }
+}
+
+@media (max-width: 380px){
+  :root{
+    --topbar-h: 92px;
+    --logo-box: 92px;
+  }
+  .brand__title{ max-width: calc(100vw - 220px); }
 }
 
 /* LIVE_BG_START */
@@ -770,150 +660,9 @@ body::after{
 
 /* LIVE_BG_END */
 
-
-/* ===============================
-   MOBILE HEADER — FINAL FIX
-   Large logo, no overlap
-   =============================== */
-@media (max-width: 640px){
-
-  .topbar{
-    padding: 6px 0;
-  }
-
-  .topbar__inner{
-    display:flex !important;
-    align-items:center !important;
-    justify-content:space-between !important;
-    gap:10px !important;
-    flex-wrap:nowrap !important;
-  }
-
-  .brand{
-    display:flex !important;
-    align-items:center !important;
-    gap:12px !important;
-    flex:1 1 auto !important;
-    min-width:0 !important;
-  }
-
-  .logo{
-    width:96px !important;
-    height:96px !important;
-    flex:0 0 96px !important;
-    background:transparent !important;
-    border:none !important;
-  }
-
-  .logo img{
-    width:100% !important;
-    height:100% !important;
-    object-fit:contain !important;
-  }
-
-  .brand__title{
-    font-size:22px !important;
-    line-height:1.05 !important;
-    white-space:nowrap !important;
-    overflow:hidden !important;
-    text-overflow:ellipsis !important;
-  }
-
-  .brand__sub,
-  .brand__kurd{
-    display:none !important;
-  }
-
-  .topbar__actions,
-  .topbar__right{
-    display:flex !important;
-    align-items:center !important;
-    gap:6px !important;
-    flex:0 0 auto !important;
-    flex-wrap:nowrap !important;
-  }
-
-  .topbar__actions .btn{
-    padding:6px 10px !important;
-    font-size:13px !important;
-    border-radius:999px !important;
-    white-space:nowrap !important;
-  }
-}
-
-/* ===============================
-   CLEAN MOBILE HEADER — FINAL
-   =============================== */
-
-@media (max-width: 640px){
-
-  /* Kill all wraps */
-  .topbar__inner,
-  .topbar__actions,
-  .brand{
-    flex-wrap: nowrap !important;
-  }
-
-  .topbar{
-    padding: 8px 0;
-  }
-
-  .topbar__inner{
-    display:flex !important;
-    align-items:center !important;
-    justify-content:space-between !important;
-    gap:12px !important;
-  }
-
-  .brand{
-    display:flex !important;
-    align-items:center !important;
-    gap:12px !important;
-    min-width:0 !important;
-    flex:1 1 auto !important;
-  }
-
-  /* BIG LOGO */
-  .logo{
-    width:110px !important;
-    height:110px !important;
-    flex:0 0 110px !important;
-    background:transparent !important;
-    border:none !important;
-  }
-
-  .logo img{
-    width:100% !important;
-    height:100% !important;
-    object-fit:contain !important;
-  }
-
-  /* Title safe area */
-  .brand__title{
-    font-size:20px !important;
-    line-height:1.1 !important;
-    white-space:nowrap !important;
-    overflow:hidden !important;
-    text-overflow:ellipsis !important;
-    max-width: calc(100vw - 230px) !important;
-  }
-
-  .brand__sub,
-  .brand__kurd{
-    display:none !important;
-  }
-
-  .topbar__actions{
-    display:flex !important;
-    align-items:center !important;
-    gap:6px !important;
-    flex:0 0 auto !important;
-  }
-
-  .topbar__actions .btn{
-    padding:6px 10px !important;
-    font-size:13px !important;
-    border-radius:999px !important;
-    white-space:nowrap !important;
-  }
+.site-logo{
+  width: 20%;
+  height: 20%;
+  padding-top:10px;
+  object-fit: cover;   /* 🔴 contain DEĞİL */
 }
