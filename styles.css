@@ -944,6 +944,6 @@ body::after{
 
 /* Mobilde taÅŸmasÄ±n */
 @media (max-width: 640px){
-  .logo{ width:108px; height:108px; }
-  .brand__title{ font-size: 30px; margin-top: 40px; }
+  .logo{ width:208px; height:208px; }
+  .brand__title{ font-size: 40px; margin-top: 50px; }
 }
